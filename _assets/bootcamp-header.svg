@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200">
+  <!-- Background -->
+  <rect width="860" height="200" fill="#0d1117"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="860" height="3" fill="#0052CC"/>
+
+  <!-- Subtle concentric rings (sprint cycle motif) -->
+  <circle cx="230" cy="88" r="150" fill="none" stroke="#0052CC" stroke-width="0.6" opacity="0.08"/>
+  <circle cx="230" cy="88" r="105" fill="none" stroke="#36B37E" stroke-width="0.6" opacity="0.07"/>
+  <circle cx="230" cy="88" r="65" fill="none" stroke="#FF8B00" stroke-width="0.6" opacity="0.06"/>
+
+  <!-- === LEFT BLOCK: Title === -->
+  <!-- BOOTCAMP label -->
+  <text x="42" y="50" font-family="Inter,Roboto,sans-serif" font-size="11" font-weight="700" letter-spacing="5" fill="#0052CC">BOOTCAMP</text>
+
+  <!-- Main title line 1 -->
+  <text x="40" y="95" font-family="Inter,Roboto,sans-serif" font-size="38" font-weight="900" fill="#ffffff">Metodologías</text>
+  <!-- Main title line 2 with accent -->
+  <text x="40" y="135" font-family="Inter,Roboto,sans-serif" font-size="38" font-weight="900" fill="#ffffff">Ágiles</text>
+  <!-- Orange accent underline -->
+  <rect x="40" y="140" width="190" height="3" rx="1" fill="#FF8B00" opacity="0.85"/>
+
+  <!-- Tagline -->
+  <text x="42" y="160" font-family="Inter,Roboto,sans-serif" font-size="11" font-weight="700" letter-spacing="4" fill="#FF8B00">DE CERO A HÉROE</text>
+
+  <!-- Frameworks strip -->
+  <text x="42" y="178" font-family="Inter,Roboto,sans-serif" font-size="9.5" fill="#4a5568" letter-spacing="0.5">Scrum · Kanban · SAFe · LeSS · Nexus · OKRs · Design Thinking</text>
+
+  <!-- Vertical divider -->
+  <line x1="395" y1="18" x2="395" y2="165" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- === RIGHT BLOCK: Sprint Board === -->
+  <!-- Sprint label bar -->
+  <rect x="408" y="22" width="438" height="20" rx="4" fill="#161b22" stroke="#0052CC" stroke-width="0.6"/>
+  <text x="627" y="35" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#4a9eff" text-anchor="middle">⟳  Sprint · 2 semanas · Sprint Goal: entregar valor incremental</text>
+
+  <!-- Column: BACKLOG -->
+  <rect x="408" y="47" width="98" height="115" rx="5" fill="#0d1b2e" stroke="#1e3a5f" stroke-width="0.8"/>
+  <text x="457" y="62" font-family="Inter,Roboto,sans-serif" font-size="8" font-weight="700" letter-spacing="1.5" fill="#4a5568" text-anchor="middle">BACKLOG</text>
+  <rect x="416" y="68" width="82" height="11" rx="3" fill="#111827" stroke="#1e3a5f" stroke-width="0.5"/>
+  <rect x="416" y="83" width="82" height="11" rx="3" fill="#111827" stroke="#1e3a5f" stroke-width="0.5"/>
+  <rect x="416" y="98" width="82" height="11" rx="3" fill="#111827" stroke="#1e3a5f" stroke-width="0.5"/>
+  <rect x="416" y="113" width="82" height="11" rx="3" fill="#111827" stroke="#1e3a5f" stroke-width="0.5"/>
+  <rect x="416" y="128" width="82" height="11" rx="3" fill="#111827" stroke="#1e3a5f" stroke-width="0.5"/>
+  <rect x="416" y="143" width="82" height="11" rx="3" fill="#111827" stroke="#1e3a5f" stroke-width="0.5"/>
+
+  <!-- Column: TO DO -->
+  <rect x="512" y="47" width="98" height="115" rx="5" fill="#1a1508" stroke="#4a3400" stroke-width="0.8"/>
+  <text x="561" y="62" font-family="Inter,Roboto,sans-serif" font-size="8" font-weight="700" letter-spacing="1.5" fill="#4a5568" text-anchor="middle">TO DO</text>
+  <rect x="520" y="68" width="82" height="11" rx="3" fill="#1f1800" stroke="#7a5c1e" stroke-width="0.5"/>
+  <rect x="520" y="83" width="82" height="11" rx="3" fill="#1f1800" stroke="#7a5c1e" stroke-width="0.5"/>
+  <rect x="520" y="98" width="82" height="11" rx="3" fill="#1f1800" stroke="#7a5c1e" stroke-width="0.5"/>
+
+  <!-- Column: IN PROGRESS -->
+  <rect x="616" y="47" width="104" height="115" rx="5" fill="#0d1b2e" stroke="#1e3a6e" stroke-width="0.8"/>
+  <text x="668" y="62" font-family="Inter,Roboto,sans-serif" font-size="8" font-weight="700" letter-spacing="1" fill="#4a9eff" text-anchor="middle">IN PROGRESS</text>
+  <rect x="624" y="68" width="88" height="18" rx="3" fill="#0d2040" stroke="#0052CC" stroke-width="0.8"/>
+  <text x="668" y="80" font-family="Inter,Roboto,sans-serif" font-size="7.5" fill="#4a9eff" text-anchor="middle">▶ Sprint Goal</text>
+  <rect x="624" y="92" width="88" height="11" rx="3" fill="#0d2040" stroke="#0052CC" stroke-width="0.5"/>
+  <rect x="624" y="107" width="88" height="11" rx="3" fill="#0d2040" stroke="#0052CC" stroke-width="0.5"/>
+
+  <!-- Column: DONE -->
+  <rect x="726" y="47" width="110" height="115" rx="5" fill="#081812" stroke="#1a4a2e" stroke-width="0.8"/>
+  <text x="781" y="62" font-family="Inter,Roboto,sans-serif" font-size="8" font-weight="700" letter-spacing="1.5" fill="#36B37E" text-anchor="middle">✓ DONE</text>
+  <rect x="734" y="68" width="94" height="11" rx="3" fill="#0a2016" stroke="#36B37E" stroke-width="0.5"/>
+  <rect x="734" y="83" width="94" height="11" rx="3" fill="#0a2016" stroke="#36B37E" stroke-width="0.5"/>
+  <rect x="734" y="98" width="94" height="11" rx="3" fill="#0a2016" stroke="#36B37E" stroke-width="0.5"/>
+  <rect x="734" y="113" width="94" height="11" rx="3" fill="#0a2016" stroke="#36B37E" stroke-width="0.5"/>
+  <rect x="734" y="128" width="94" height="11" rx="3" fill="#0a2016" stroke="#36B37E" stroke-width="0.5"/>
+  <rect x="734" y="143" width="94" height="11" rx="3" fill="#0a2016" stroke="#36B37E" stroke-width="0.5"/>
+
+  <!-- === BOTTOM STATS BAR === -->
+  <rect x="0" y="168" width="860" height="32" fill="#0f172a"/>
+  <line x1="215" y1="170" x2="215" y2="197" stroke="#1e293b" stroke-width="1"/>
+  <line x1="430" y1="170" x2="430" y2="197" stroke="#1e293b" stroke-width="1"/>
+  <line x1="645" y1="170" x2="645" y2="197" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Stat 1: Semanas -->
+  <text x="107" y="182" font-family="Inter,Roboto,sans-serif" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">24</text>
+  <text x="107" y="195" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#4a5568" letter-spacing="2" text-anchor="middle">SEMANAS</text>
+
+  <!-- Stat 2: Horas -->
+  <text x="322" y="182" font-family="Inter,Roboto,sans-serif" font-size="16" font-weight="800" fill="#ffffff" text-anchor="middle">192</text>
+  <text x="322" y="195" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#4a5568" letter-spacing="2" text-anchor="middle">HORAS</text>
+
+  <!-- Stat 3: Etapas -->
+  <text x="537" y="182" font-family="Inter,Roboto,sans-serif" font-size="16" font-weight="800" fill="#FF8B00" text-anchor="middle">3</text>
+  <text x="537" y="195" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#4a5568" letter-spacing="2" text-anchor="middle">ETAPAS</text>
+
+  <!-- Stat 4: Open Source -->
+  <text x="752" y="181" font-family="Inter,Roboto,sans-serif" font-size="10" font-weight="700" fill="#36B37E" text-anchor="middle">MIT Open Source</text>
+  <text x="752" y="195" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#4a5568" letter-spacing="1" text-anchor="middle">Plantillas libres de uso</text>
+
+  <!-- Bottom color bar (3 colors for 3 stages) -->
+  <rect x="0" y="197" width="287" height="3" fill="#0052CC" opacity="0.7"/>
+  <rect x="287" y="197" width="286" height="3" fill="#36B37E" opacity="0.7"/>
+  <rect x="573" y="197" width="287" height="3" fill="#FF8B00" opacity="0.7"/>
+</svg>
