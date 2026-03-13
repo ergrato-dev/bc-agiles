@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" font-family="Inter, Roboto, Open Sans, system-ui, sans-serif">
+
+  <!-- Fondo -->
+  <rect width="900" height="420" fill="#1a1a2e"/>
+
+  <!-- Título -->
+  <text x="450" y="38" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Del Cascada al Ágil</text>
+
+  <!-- ============ LADO CASCADA ============ -->
+  <text x="210" y="72" text-anchor="middle" font-size="13" font-weight="600" fill="#a0aec0">Modelo en Cascada</text>
+
+  <!-- Flechas secuenciales cascada -->
+  <!-- Caja 1 -->
+  <rect x="80" y="88" width="260" height="40" rx="6" fill="#16213e" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="210" y="113" text-anchor="middle" font-size="13" fill="#e2e8f0">Requisitos</text>
+  <!-- flecha -->
+  <line x1="210" y1="128" x2="210" y2="148" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowGray)"/>
+
+  <rect x="80" y="148" width="260" height="40" rx="6" fill="#16213e" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="210" y="173" text-anchor="middle" font-size="13" fill="#e2e8f0">Diseño</text>
+  <line x1="210" y1="188" x2="210" y2="208" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowGray)"/>
+
+  <rect x="80" y="208" width="260" height="40" rx="6" fill="#16213e" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="210" y="233" text-anchor="middle" font-size="13" fill="#e2e8f0">Implementación</text>
+  <line x1="210" y1="248" x2="210" y2="268" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowGray)"/>
+
+  <rect x="80" y="268" width="260" height="40" rx="6" fill="#16213e" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="210" y="293" text-anchor="middle" font-size="13" fill="#e2e8f0">Verificación</text>
+  <line x1="210" y1="308" x2="210" y2="328" stroke="#4a5568" stroke-width="2" marker-end="url(#arrowGray)"/>
+
+  <rect x="80" y="328" width="260" height="40" rx="6" fill="#1e3a5f" stroke="#e53e3e" stroke-width="1.5"/>
+  <text x="210" y="353" text-anchor="middle" font-size="13" fill="#fc8181">Mantenimiento</text>
+
+  <!-- Etiqueta problema -->
+  <text x="210" y="390" text-anchor="middle" font-size="11" fill="#fc8181">⚠ El cliente ve el producto al final</text>
+
+  <!-- ============ SEPARADOR ============ -->
+  <line x1="450" y1="65" x2="450" y2="395" stroke="#2d3748" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="450" y="390" text-anchor="middle" font-size="11" fill="#4a5568">vs</text>
+
+  <!-- ============ LADO ÁGIL ============ -->
+  <text x="690" y="72" text-anchor="middle" font-size="13" font-weight="600" fill="#a0aec0">Modelo Ágil (Scrum)</text>
+
+  <!-- Sprint loop -->
+  <!-- Sprint box -->
+  <rect x="510" y="88" width="360" height="280" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="690" y="112" text-anchor="middle" font-size="12" font-weight="600" fill="#90cdf4">Sprint (1–4 semanas)</text>
+
+  <!-- Ciclo interno -->
+  <rect x="540" y="124" width="140" height="34" rx="6" fill="#1a365d" stroke="#0052CC" stroke-width="1"/>
+  <text x="610" y="146" text-anchor="middle" font-size="12" fill="#e2e8f0">Planificar</text>
+
+  <rect x="700" y="124" width="140" height="34" rx="6" fill="#1a365d" stroke="#0052CC" stroke-width="1"/>
+  <text x="770" y="146" text-anchor="middle" font-size="12" fill="#e2e8f0">Construir</text>
+
+  <rect x="700" y="198" width="140" height="34" rx="6" fill="#1a365d" stroke="#0052CC" stroke-width="1"/>
+  <text x="770" y="220" text-anchor="middle" font-size="12" fill="#e2e8f0">Revisar</text>
+
+  <rect x="540" y="198" width="140" height="34" rx="6" fill="#1a365d" stroke="#0052CC" stroke-width="1"/>
+  <text x="610" y="220" text-anchor="middle" font-size="12" fill="#e2e8f0">Mejorar</text>
+
+  <!-- Flechas ciclo -->
+  <line x1="680" y1="141" x2="700" y2="141" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <line x1="770" y1="158" x2="770" y2="198" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <line x1="700" y1="215" x2="680" y2="215" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <line x1="610" y1="198" x2="610" y2="158" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+
+  <!-- Incremento -->
+  <rect x="560" y="268" width="260" height="34" rx="6" fill="#1c4532" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="690" y="290" text-anchor="middle" font-size="12" fill="#9ae6b4">✓ Incremento entregable</text>
+
+  <!-- Etiqueta beneficio -->
+  <text x="690" y="390" text-anchor="middle" font-size="11" fill="#9ae6b4">✓ El cliente ve valor en cada Sprint</text>
+
+  <!-- Marcadores de flecha -->
+  <defs>
+    <marker id="arrowGray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4a5568"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#0052CC"/>
+    </marker>
+  </defs>
+
+</svg>

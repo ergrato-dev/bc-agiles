@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" font-family="Inter, Roboto, Open Sans, system-ui, sans-serif">
+
+  <!-- Fondo -->
+  <rect width="900" height="460" fill="#1a1a2e"/>
+
+  <!-- Título -->
+  <text x="450" y="38" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Los 4 Valores del Manifiesto Ágil</text>
+  <text x="450" y="58" text-anchor="middle" font-size="12" fill="#718096">Valoramos más los elementos de la izquierda, aunque los de la derecha tienen valor.</text>
+
+  <!-- ============ VALOR 1 ============ -->
+  <rect x="40" y="80" width="380" height="80" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="60" y="108" font-size="13" font-weight="700" fill="#90cdf4">Valor 1</text>
+  <text x="60" y="130" font-size="13" fill="#e2e8f0">Individuos e interacciones</text>
+  <text x="60" y="150" font-size="12" fill="#718096">sobre procesos y herramientas</text>
+
+  <!-- flecha derecha V1 -->
+  <text x="450" y="128" text-anchor="middle" font-size="22" fill="#0052CC">›</text>
+
+  <rect x="480" y="80" width="380" height="80" rx="8" fill="#16213e" stroke="#2d3748" stroke-width="1.5"/>
+  <text x="500" y="108" font-size="13" font-weight="700" fill="#4a5568">Procesos y herramientas</text>
+  <text x="500" y="130" font-size="12" fill="#4a5568">Útiles, pero no reemplazan</text>
+  <text x="500" y="150" font-size="12" fill="#4a5568">la colaboración humana.</text>
+
+  <!-- ============ VALOR 2 ============ -->
+  <rect x="40" y="180" width="380" height="80" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="60" y="208" font-size="13" font-weight="700" fill="#90cdf4">Valor 2</text>
+  <text x="60" y="230" font-size="13" fill="#e2e8f0">Software funcionando</text>
+  <text x="60" y="250" font-size="12" fill="#718096">sobre documentación exhaustiva</text>
+
+  <text x="450" y="228" text-anchor="middle" font-size="22" fill="#0052CC">›</text>
+
+  <rect x="480" y="180" width="380" height="80" rx="8" fill="#16213e" stroke="#2d3748" stroke-width="1.5"/>
+  <text x="500" y="208" font-size="13" font-weight="700" fill="#4a5568">Documentación exhaustiva</text>
+  <text x="500" y="230" font-size="12" fill="#4a5568">Necesaria, pero no es</text>
+  <text x="500" y="250" font-size="12" fill="#4a5568">el objetivo en sí misma.</text>
+
+  <!-- ============ VALOR 3 ============ -->
+  <rect x="40" y="280" width="380" height="80" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="60" y="308" font-size="13" font-weight="700" fill="#90cdf4">Valor 3</text>
+  <text x="60" y="330" font-size="13" fill="#e2e8f0">Colaboración con el cliente</text>
+  <text x="60" y="350" font-size="12" fill="#718096">sobre negociación contractual</text>
+
+  <text x="450" y="328" text-anchor="middle" font-size="22" fill="#0052CC">›</text>
+
+  <rect x="480" y="280" width="380" height="80" rx="8" fill="#16213e" stroke="#2d3748" stroke-width="1.5"/>
+  <text x="500" y="308" font-size="13" font-weight="700" fill="#4a5568">Negociación contractual</text>
+  <text x="500" y="330" font-size="12" fill="#4a5568">Los contratos son necesarios,</text>
+  <text x="500" y="350" font-size="12" fill="#4a5568">pero no dictan la colaboración.</text>
+
+  <!-- ============ VALOR 4 ============ -->
+  <rect x="40" y="380" width="380" height="60" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="60" y="404" font-size="13" font-weight="700" fill="#90cdf4">Valor 4</text>
+  <text x="60" y="422" font-size="13" fill="#e2e8f0">Respuesta ante el cambio</text>
+  <text x="60" y="440" font-size="12" fill="#718096">sobre seguir un plan</text>
+
+  <text x="450" y="418" text-anchor="middle" font-size="22" fill="#0052CC">›</text>
+
+  <rect x="480" y="380" width="380" height="60" rx="8" fill="#16213e" stroke="#2d3748" stroke-width="1.5"/>
+  <text x="500" y="404" font-size="13" font-weight="700" fill="#4a5568">Seguir un plan</text>
+  <text x="500" y="422" font-size="12" fill="#4a5568">Los planes son útiles,</text>
+  <text x="500" y="440" font-size="12" fill="#4a5568">pero deben adaptarse.</text>
+
+</svg>
