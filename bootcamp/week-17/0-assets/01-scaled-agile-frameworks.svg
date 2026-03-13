@@ -1,0 +1,120 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Roboto, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="480" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Frameworks de Scaled Agile</text>
+  <text x="450" y="56" text-anchor="middle" font-size="12" fill="#8892b0">SAFe · LeSS · Nexus — comparativa de estructura</text>
+
+  <!-- ===== NEXUS COLUMN ===== -->
+  <text x="150" y="90" text-anchor="middle" font-size="15" font-weight="bold" fill="#0052CC">Nexus</text>
+  <text x="150" y="106" text-anchor="middle" font-size="10" fill="#8892b0">3–9 equipos · Scrum.org</text>
+
+  <!-- Nexus Integration Team -->
+  <rect x="70" y="118" width="160" height="38" rx="6" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="150" y="133" text-anchor="middle" font-size="11" font-weight="bold" fill="#0052CC">Nexus Integration Team</text>
+  <text x="150" y="148" text-anchor="middle" font-size="10" fill="#8892b0">coordina dependencias</text>
+
+  <!-- Nexus teams -->
+  <rect x="70" y="170" width="44" height="34" rx="5" fill="#16213e" stroke="#4a9eff" stroke-width="1"/>
+  <text x="92" y="191" text-anchor="middle" font-size="10" fill="#ffffff">Eq 1</text>
+  <rect x="121" y="170" width="44" height="34" rx="5" fill="#16213e" stroke="#4a9eff" stroke-width="1"/>
+  <text x="143" y="191" text-anchor="middle" font-size="10" fill="#ffffff">Eq 2</text>
+  <rect x="172" y="170" width="44" height="34" rx="5" fill="#16213e" stroke="#4a9eff" stroke-width="1"/>
+  <text x="194" y="191" text-anchor="middle" font-size="10" fill="#ffffff">Eq 3</text>
+
+  <!-- Nexus key artefact -->
+  <rect x="90" y="218" width="120" height="28" rx="5" fill="#0d1b40" stroke="#0052CC" stroke-width="1"/>
+  <text x="150" y="230" text-anchor="middle" font-size="10" fill="#8892b0">Artefacto clave:</text>
+  <text x="150" y="242" text-anchor="middle" font-size="10" font-weight="bold" fill="#4a9eff">Nexus Sprint Backlog</text>
+
+  <!-- Nexus shared product backlog -->
+  <rect x="90" y="258" width="120" height="26" rx="5" fill="#0d1b40" stroke="#36B37E" stroke-width="1"/>
+  <text x="150" y="270" text-anchor="middle" font-size="10" fill="#8892b0">1 Product Backlog</text>
+  <text x="150" y="282" text-anchor="middle" font-size="10" fill="#36B37E">compartido</text>
+
+  <!-- ===== LeSS COLUMN ===== -->
+  <text x="450" y="90" text-anchor="middle" font-size="15" font-weight="bold" fill="#36B37E">LeSS</text>
+  <text x="450" y="106" text-anchor="middle" font-size="10" fill="#8892b0">2–8 equipos · Larman & Vodde</text>
+
+  <!-- 1 PO -->
+  <rect x="370" y="118" width="160" height="38" rx="6" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="450" y="133" text-anchor="middle" font-size="11" font-weight="bold" fill="#36B37E">1 Product Owner</text>
+  <text x="450" y="148" text-anchor="middle" font-size="10" fill="#8892b0">1 Product Backlog compartido</text>
+
+  <!-- LeSS teams with shared sprint -->
+  <rect x="370" y="170" width="44" height="34" rx="5" fill="#16213e" stroke="#36B37E" stroke-width="1"/>
+  <text x="392" y="191" text-anchor="middle" font-size="10" fill="#ffffff">Eq 1</text>
+  <rect x="421" y="170" width="44" height="34" rx="5" fill="#16213e" stroke="#36B37E" stroke-width="1"/>
+  <text x="443" y="191" text-anchor="middle" font-size="10" fill="#ffffff">Eq 2</text>
+  <rect x="472" y="170" width="44" height="34" rx="5" fill="#16213e" stroke="#36B37E" stroke-width="1"/>
+  <text x="494" y="191" text-anchor="middle" font-size="10" fill="#ffffff">Eq 3</text>
+
+  <!-- Same sprint label -->
+  <rect x="370" y="218" width="160" height="28" rx="5" fill="#0d1b40" stroke="#36B37E" stroke-width="1"/>
+  <text x="450" y="230" text-anchor="middle" font-size="10" fill="#8892b0">Mismo Sprint para</text>
+  <text x="450" y="242" text-anchor="middle" font-size="10" font-weight="bold" fill="#36B37E">todos los equipos</text>
+
+  <rect x="370" y="258" width="160" height="26" rx="5" fill="#0d1b40" stroke="#36B37E" stroke-width="1"/>
+  <text x="450" y="270" text-anchor="middle" font-size="10" fill="#8892b0">1 Sprint Review integrada</text>
+  <text x="450" y="282" text-anchor="middle" font-size="10" fill="#36B37E">con todos los equipos</text>
+
+  <!-- ===== SAFe COLUMN ===== -->
+  <text x="750" y="90" text-anchor="middle" font-size="15" font-weight="bold" fill="#FF8B00">SAFe</text>
+  <text x="750" y="106" text-anchor="middle" font-size="10" fill="#8892b0">5–125+ equipos · Scaled Agile Inc.</text>
+
+  <!-- ART box -->
+  <rect x="640" y="118" width="220" height="38" rx="6" fill="#16213e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="750" y="133" text-anchor="middle" font-size="11" font-weight="bold" fill="#FF8B00">Agile Release Train (ART)</text>
+  <text x="750" y="148" text-anchor="middle" font-size="10" fill="#8892b0">Release Train Engineer (RTE)</text>
+
+  <!-- SAFe teams row 1 -->
+  <rect x="640" y="170" width="40" height="30" rx="4" fill="#16213e" stroke="#FF8B00" stroke-width="1"/>
+  <text x="660" y="189" text-anchor="middle" font-size="9" fill="#ffffff">Eq 1</text>
+  <rect x="685" y="170" width="40" height="30" rx="4" fill="#16213e" stroke="#FF8B00" stroke-width="1"/>
+  <text x="705" y="189" text-anchor="middle" font-size="9" fill="#ffffff">Eq 2</text>
+  <rect x="730" y="170" width="40" height="30" rx="4" fill="#16213e" stroke="#FF8B00" stroke-width="1"/>
+  <text x="750" y="189" text-anchor="middle" font-size="9" fill="#ffffff">Eq 3</text>
+  <rect x="775" y="170" width="40" height="30" rx="4" fill="#16213e" stroke="#FF8B00" stroke-width="1"/>
+  <text x="795" y="189" text-anchor="middle" font-size="9" fill="#ffffff">Eq 4</text>
+  <rect x="820" y="170" width="40" height="30" rx="4" fill="#16213e" stroke="#FF8B00" stroke-width="1"/>
+  <text x="840" y="189" text-anchor="middle" font-size="9" fill="#ffffff">Eq 5</text>
+
+  <!-- PI box -->
+  <rect x="640" y="214" width="220" height="28" rx="5" fill="#0d1b40" stroke="#FF8B00" stroke-width="1"/>
+  <text x="750" y="226" text-anchor="middle" font-size="10" fill="#8892b0">PI = 4–5 Sprints + 1 IP Sprint</text>
+  <text x="750" y="238" text-anchor="middle" font-size="10" font-weight="bold" fill="#FF8B00">PI Planning (2 días)</text>
+
+  <!-- Program Backlog -->
+  <rect x="640" y="256" width="220" height="28" rx="5" fill="#0d1b40" stroke="#FF8B00" stroke-width="1"/>
+  <text x="750" y="268" text-anchor="middle" font-size="10" fill="#8892b0">Program Backlog:</text>
+  <text x="750" y="280" text-anchor="middle" font-size="10" font-weight="bold" fill="#FF8B00">Epics → Features → Stories</text>
+
+  <!-- ===== WHEN TO USE section ===== -->
+  <rect x="40" y="310" width="820" height="8" rx="4" fill="#0052CC" opacity="0.3"/>
+  <text x="450" y="338" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">¿Cuándo usar cada framework?</text>
+
+  <!-- Nexus pill -->
+  <rect x="40" y="350" width="250" height="80" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="165" y="370" text-anchor="middle" font-size="12" font-weight="bold" fill="#0052CC">Nexus</text>
+  <text x="165" y="388" text-anchor="middle" font-size="10" fill="#8892b0">Primera vez escalando</text>
+  <text x="165" y="402" text-anchor="middle" font-size="10" fill="#8892b0">Cambio mínimo sobre Scrum</text>
+  <text x="165" y="416" text-anchor="middle" font-size="10" fill="#4a9eff">3–9 equipos en 1 producto</text>
+
+  <!-- LeSS pill -->
+  <rect x="325" y="350" width="250" height="80" rx="8" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="450" y="370" text-anchor="middle" font-size="12" font-weight="bold" fill="#36B37E">LeSS</text>
+  <text x="450" y="388" text-anchor="middle" font-size="10" fill="#8892b0">Organización que domina Scrum</text>
+  <text x="450" y="402" text-anchor="middle" font-size="10" fill="#8892b0">Menos overhead de procesos</text>
+  <text x="450" y="416" text-anchor="middle" font-size="10" fill="#36B37E">2–8 equipos (LeSS Huge: +8)</text>
+
+  <!-- SAFe pill -->
+  <rect x="610" y="350" width="250" height="80" rx="8" fill="#16213e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="735" y="370" text-anchor="middle" font-size="12" font-weight="bold" fill="#FF8B00">SAFe</text>
+  <text x="735" y="388" text-anchor="middle" font-size="10" fill="#8892b0">Empresa grande, regulada</text>
+  <text x="735" y="402" text-anchor="middle" font-size="10" fill="#8892b0">Múltiples departamentos y ARTs</text>
+  <text x="735" y="416" text-anchor="middle" font-size="10" fill="#FF8B00">50–125+ personas por ART</text>
+
+  <!-- Bottom label -->
+  <text x="450" y="462" text-anchor="middle" font-size="10" fill="#4a5568">Semana 17 — Etapa 2: Ágil Avanzado</text>
+</svg>
