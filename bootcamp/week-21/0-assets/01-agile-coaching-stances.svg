@@ -1,0 +1,106 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Roboto, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="420" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Agile Coaching — Stances y Niveles</text>
+  <text x="450" y="52" text-anchor="middle" font-size="11" fill="#8892b0">Cuándo usar cada modo de intervención</text>
+
+  <!-- ===== 4 STANCES ===== -->
+
+  <!-- MENTOR -->
+  <rect x="30" y="70" width="190" height="130" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="125" y="93" text-anchor="middle" font-size="14" font-weight="bold" fill="#0052CC">📚 Mentor</text>
+  <text x="125" y="112" text-anchor="middle" font-size="10" fill="#8892b0">Comparte experiencia</text>
+  <text x="125" y="125" text-anchor="middle" font-size="10" fill="#8892b0">y conocimiento propio.</text>
+  <text x="50" y="148" font-size="10" fill="#4a9eff">Cuándo:</text>
+  <text x="50" y="163" font-size="9" fill="#8892b0">Equipo sin experiencia</text>
+  <text x="50" y="177" font-size="9" fill="#8892b0">en el tema específico</text>
+  <rect x="50" y="186" width="150" height="8" rx="3" fill="#0d1b40"/>
+  <rect x="50" y="186" width="38" height="8" rx="3" fill="#0052CC"/>
+  <text x="125" y="195" text-anchor="middle" font-size="8" fill="#8892b0">20% del tiempo</text>
+
+  <!-- FACILITATOR -->
+  <rect x="240" y="70" width="190" height="130" rx="10" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="335" y="93" text-anchor="middle" font-size="14" font-weight="bold" fill="#36B37E">🎯 Facilitador</text>
+  <text x="335" y="112" text-anchor="middle" font-size="10" fill="#8892b0">Diseña y conduce</text>
+  <text x="335" y="125" text-anchor="middle" font-size="10" fill="#8892b0">espacios de colaboración.</text>
+  <text x="260" y="148" font-size="10" fill="#36B37E">Cuándo:</text>
+  <text x="260" y="163" font-size="9" fill="#8892b0">Eventos Scrum, retros,</text>
+  <text x="260" y="177" font-size="9" fill="#8892b0">talleres de equipo</text>
+  <rect x="260" y="186" width="150" height="8" rx="3" fill="#0d1b40"/>
+  <rect x="260" y="186" width="75" height="8" rx="3" fill="#36B37E"/>
+  <text x="335" y="195" text-anchor="middle" font-size="8" fill="#8892b0">50% del tiempo</text>
+
+  <!-- TRAINER -->
+  <rect x="450" y="70" width="190" height="130" rx="10" fill="#16213e" stroke="#FF8B00" stroke-width="2"/>
+  <text x="545" y="93" text-anchor="middle" font-size="14" font-weight="bold" fill="#FF8B00">🎓 Trainer</text>
+  <text x="545" y="112" text-anchor="middle" font-size="10" fill="#8892b0">Enseña frameworks,</text>
+  <text x="545" y="125" text-anchor="middle" font-size="10" fill="#8892b0">prácticas y herramientas.</text>
+  <text x="470" y="148" font-size="10" fill="#FF8B00">Cuándo:</text>
+  <text x="470" y="163" font-size="9" fill="#8892b0">Equipo nuevo en Scrum,</text>
+  <text x="470" y="177" font-size="9" fill="#8892b0">Kanban o SAFe</text>
+  <rect x="470" y="186" width="150" height="8" rx="3" fill="#0d1b40"/>
+  <rect x="470" y="186" width="23" height="8" rx="3" fill="#FF8B00"/>
+  <text x="545" y="195" text-anchor="middle" font-size="8" fill="#8892b0">15% del tiempo</text>
+
+  <!-- COACH -->
+  <rect x="660" y="70" width="210" height="130" rx="10" fill="#16213e" stroke="#b794f4" stroke-width="2"/>
+  <text x="765" y="93" text-anchor="middle" font-size="14" font-weight="bold" fill="#b794f4">💬 Coach</text>
+  <text x="765" y="112" text-anchor="middle" font-size="10" fill="#8892b0">Hace preguntas poderosas.</text>
+  <text x="765" y="125" text-anchor="middle" font-size="10" fill="#8892b0">El coachee encuentra sus respuestas.</text>
+  <text x="680" y="148" font-size="10" fill="#b794f4">Cuándo:</text>
+  <text x="680" y="163" font-size="9" fill="#8892b0">Bloqueos personales,</text>
+  <text x="680" y="177" font-size="9" fill="#8892b0">creencias limitantes</text>
+  <rect x="680" y="186" width="150" height="8" rx="3" fill="#0d1b40"/>
+  <rect x="680" y="186" width="23" height="8" rx="3" fill="#b794f4"/>
+  <text x="765" y="195" text-anchor="middle" font-size="8" fill="#8892b0">15% del tiempo</text>
+
+  <!-- ===== LEVELS SECTION ===== -->
+  <text x="450" y="226" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Niveles de Intervención del Agile Coach</text>
+
+  <!-- Level: Individual -->
+  <rect x="30" y="238" width="260" height="64" rx="8" fill="#16213e" stroke="#b794f4" stroke-width="1.5"/>
+  <text x="160" y="257" text-anchor="middle" font-size="12" font-weight="bold" fill="#b794f4">👤 Individual</text>
+  <text x="46" y="276" font-size="10" fill="#8892b0">Coaching 1:1 a Developer, PO o SM.</text>
+  <text x="46" y="291" font-size="10" fill="#8892b0">Foco en creencias, hábitos y crecimiento.</text>
+
+  <!-- Level: Team -->
+  <rect x="320" y="238" width="260" height="64" rx="8" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="450" y="257" text-anchor="middle" font-size="12" font-weight="bold" fill="#36B37E">👥 Equipo</text>
+  <text x="336" y="276" font-size="10" fill="#8892b0">Dinámica, conflictos, madurez del equipo.</text>
+  <text x="336" y="291" font-size="10" fill="#8892b0">Retros, Team Assessment, acuerdos.</text>
+
+  <!-- Level: Organization -->
+  <rect x="610" y="238" width="260" height="64" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="740" y="257" text-anchor="middle" font-size="12" font-weight="bold" fill="#0052CC">🏢 Organización</text>
+  <text x="626" y="276" font-size="10" fill="#8892b0">Cultura, liderazgo, estructura sistémica.</text>
+  <text x="626" y="291" font-size="10" fill="#8892b0">Transformación ágil y resistencia al cambio.</text>
+
+  <!-- ===== Competencies strip ===== -->
+  <rect x="30" y="318" width="840" height="70" rx="8" fill="#16213e" stroke="#4a5568" stroke-width="1"/>
+  <text x="450" y="337" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">Competencias ICAgile (ICP-ACC)</text>
+
+  <rect x="50" y="347" width="148" height="30" rx="5" fill="#0d1b40" stroke="#0052CC" stroke-width="1"/>
+  <text x="124" y="360" text-anchor="middle" font-size="9" fill="#4a9eff">Escucha activa</text>
+  <text x="124" y="372" text-anchor="middle" font-size="9" fill="#8892b0">Nivel 1–2</text>
+
+  <rect x="210" y="347" width="148" height="30" rx="5" fill="#0d1b40" stroke="#36B37E" stroke-width="1"/>
+  <text x="284" y="360" text-anchor="middle" font-size="9" fill="#36B37E">Preguntas poderosas</text>
+  <text x="284" y="372" text-anchor="middle" font-size="9" fill="#8892b0">Abiertas + neutrales</text>
+
+  <rect x="370" y="347" width="148" height="30" rx="5" fill="#0d1b40" stroke="#FF8B00" stroke-width="1"/>
+  <text x="444" y="360" text-anchor="middle" font-size="9" fill="#FF8B00">Presencia plena</text>
+  <text x="444" y="372" text-anchor="middle" font-size="9" fill="#8892b0">Sin agenda propia</text>
+
+  <rect x="530" y="347" width="148" height="30" rx="5" fill="#0d1b40" stroke="#b794f4" stroke-width="1"/>
+  <text x="604" y="360" text-anchor="middle" font-size="9" fill="#b794f4">Crear seguridad psicológica</text>
+  <text x="604" y="372" text-anchor="middle" font-size="9" fill="#8892b0">Entorno de confianza</text>
+
+  <rect x="690" y="347" width="160" height="30" rx="5" fill="#0d1b40" stroke="#4a9eff" stroke-width="1"/>
+  <text x="770" y="360" text-anchor="middle" font-size="9" fill="#4a9eff">Perspectiva sistémica</text>
+  <text x="770" y="372" text-anchor="middle" font-size="9" fill="#8892b0">Equipo ↔ Org</text>
+
+  <!-- Footer -->
+  <text x="450" y="408" text-anchor="middle" font-size="10" fill="#4a5568">Semana 21 — Etapa 2: Agile Coaching</text>
+</svg>
