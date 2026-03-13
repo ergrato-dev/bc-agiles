@@ -172,7 +172,7 @@ Puedes copiarlos, adaptarlos y usarlos en tus propios equipos y proyectos comerc
 
 ## 🤝 Contribuir
 
-Las contribuciones de la comunidad son bienvenidas. Para contribuir:
+Las contribuciones de la comunidad son bienvenidas. Lee la [Guía de Contribución](CONTRIBUTING.md) y el [Código de Conducta](CODE_OF_CONDUCT.md) antes de empezar.
 
 1. **Fork** del repositorio
 2. **Crea una rama**: `git checkout -b feat/mejora-semana-05`

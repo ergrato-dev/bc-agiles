@@ -172,7 +172,7 @@ You can copy, adapt, and use them in your own teams and commercial projects with
 
 ## 🤝 Contributing
 
-Community contributions are welcome. To contribute:
+Community contributions are welcome. Read the [Contributing Guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before you start.
 
 1. **Fork** the repository
 2. **Create a branch**: `git checkout -b feat/improve-week-05`
