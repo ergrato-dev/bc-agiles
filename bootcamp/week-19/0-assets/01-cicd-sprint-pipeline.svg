@@ -1,0 +1,102 @@
+<svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Roboto, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="440" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">CI/CD Pipeline en el Ciclo del Sprint</text>
+  <text x="450" y="54" text-anchor="middle" font-size="11" fill="#8892b0">Del Sprint Planning al despliegue en producción</text>
+
+  <!-- Sprint boundary box -->
+  <rect x="40" y="70" width="820" height="180" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="55" y="88" font-size="11" fill="#0052CC" font-weight="bold">Sprint (2 semanas)</text>
+
+  <!-- Sprint Planning -->
+  <rect x="60" y="100" width="120" height="50" rx="8" fill="#0052CC"/>
+  <text x="120" y="122" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Sprint</text>
+  <text x="120" y="138" text-anchor="middle" font-size="11" fill="#ffffff">Planning</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="125" x2="210" y2="125" stroke="#4a5568" stroke-width="1.5" marker-end="url(#arr1)"/>
+  <defs><marker id="arr1" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#4a5568"/></marker></defs>
+
+  <!-- Development box -->
+  <rect x="210" y="100" width="140" height="50" rx="8" fill="#16213e" stroke="#4a9eff" stroke-width="1.5"/>
+  <text x="280" y="122" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9eff">Desarrollo</text>
+  <text x="280" y="138" text-anchor="middle" font-size="10" fill="#8892b0">commits frecuentes</text>
+
+  <!-- Arrow -->
+  <line x1="350" y1="125" x2="380" y2="125" stroke="#4a5568" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <defs><marker id="arr2" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#4a5568"/></marker></defs>
+
+  <!-- CI box -->
+  <rect x="380" y="95" width="130" height="60" rx="8" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="445" y="115" text-anchor="middle" font-size="10" fill="#36B37E" font-weight="bold">CI</text>
+  <text x="445" y="130" text-anchor="middle" font-size="9" fill="#8892b0">Build + Unit Tests</text>
+  <text x="445" y="144" text-anchor="middle" font-size="9" fill="#8892b0">Integration Tests</text>
+
+  <!-- Arrow -->
+  <line x1="510" y1="125" x2="540" y2="125" stroke="#4a5568" stroke-width="1.5" marker-end="url(#arr3)"/>
+  <defs><marker id="arr3" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#4a5568"/></marker></defs>
+
+  <!-- CD Delivery box -->
+  <rect x="540" y="95" width="130" height="60" rx="8" fill="#16213e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="605" y="115" text-anchor="middle" font-size="10" fill="#FF8B00" font-weight="bold">CD — Delivery</text>
+  <text x="605" y="130" text-anchor="middle" font-size="9" fill="#8892b0">Artefacto listo</text>
+  <text x="605" y="144" text-anchor="middle" font-size="9" fill="#8892b0">para producción</text>
+
+  <!-- Arrow -->
+  <line x1="670" y1="125" x2="700" y2="125" stroke="#4a5568" stroke-width="1.5" marker-end="url(#arr4)"/>
+  <defs><marker id="arr4" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#4a5568"/></marker></defs>
+
+  <!-- Sprint Review -->
+  <rect x="700" y="100" width="130" height="50" rx="8" fill="#0052CC"/>
+  <text x="765" y="122" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Sprint</text>
+  <text x="765" y="138" text-anchor="middle" font-size="11" fill="#ffffff">Review</text>
+
+  <!-- Pipeline label -->
+  <rect x="370" y="165" width="295" height="20" rx="4" fill="#0d1b40"/>
+  <text x="518" y="179" text-anchor="middle" font-size="10" fill="#36B37E">✓ Pipeline verde = historia potencialmente entregable</text>
+
+  <!-- X mark for integration hell -->
+  <rect x="40" y="200" width="820" height="38" rx="0"/>
+  <rect x="60" y="202" width="340" height="32" rx="6" fill="#0d1b40" stroke="#FF8B00" stroke-width="1"/>
+  <text x="230" y="214" text-anchor="middle" font-size="10" fill="#FF8B00" font-weight="bold">⚠ Antipatrón: "Integration Hell"</text>
+  <text x="230" y="228" text-anchor="middle" font-size="10" fill="#8892b0">Integrar código solo al final del Sprint = conflictos masivos</text>
+
+  <!-- CD Deployment (below the sprint) -->
+  <line x1="765" y1="150" x2="765" y2="280" stroke="#4a5568" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arr5)"/>
+  <defs><marker id="arr5" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#4a5568"/></marker></defs>
+
+  <!-- CD Deployment box -->
+  <rect x="680" y="280" width="170" height="60" rx="8" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="765" y="305" text-anchor="middle" font-size="12" font-weight="bold" fill="#36B37E">CD — Deployment</text>
+  <text x="765" y="322" text-anchor="middle" font-size="10" fill="#8892b0">Auto-deploy a producción</text>
+  <text x="765" y="337" text-anchor="middle" font-size="10" fill="#36B37E">Feedback real de usuarios</text>
+
+  <!-- DORA Metrics section -->
+  <rect x="40" y="270" width="580" height="100" rx="8" fill="#16213e" stroke="#4a5568" stroke-width="1"/>
+  <text x="60" y="292" font-size="13" font-weight="bold" fill="#ffffff">Métricas DORA</text>
+
+  <rect x="55" y="300" width="130" height="56" rx="6" fill="#0d1b40" stroke="#0052CC" stroke-width="1"/>
+  <text x="120" y="316" text-anchor="middle" font-size="10" font-weight="bold" fill="#0052CC">Deployment Frequency</text>
+  <text x="120" y="332" text-anchor="middle" font-size="10" fill="#8892b0">¿Con qué frecuencia</text>
+  <text x="120" y="346" text-anchor="middle" font-size="10" fill="#8892b0">se despliega?</text>
+
+  <rect x="198" y="300" width="130" height="56" rx="6" fill="#0d1b40" stroke="#36B37E" stroke-width="1"/>
+  <text x="263" y="316" text-anchor="middle" font-size="10" font-weight="bold" fill="#36B37E">Lead Time for Changes</text>
+  <text x="263" y="332" text-anchor="middle" font-size="10" fill="#8892b0">Commit → producción</text>
+  <text x="263" y="346" text-anchor="middle" font-size="10" fill="#8892b0">élite: &lt; 1 hora</text>
+
+  <rect x="341" y="300" width="130" height="56" rx="6" fill="#0d1b40" stroke="#FF8B00" stroke-width="1"/>
+  <text x="406" y="316" text-anchor="middle" font-size="10" font-weight="bold" fill="#FF8B00">Change Failure Rate</text>
+  <text x="406" y="332" text-anchor="middle" font-size="10" fill="#8892b0">% despliegues que</text>
+  <text x="406" y="346" text-anchor="middle" font-size="10" fill="#8892b0">causan incidentes</text>
+
+  <rect x="484" y="300" width="120" height="56" rx="6" fill="#0d1b40" stroke="#4a9eff" stroke-width="1"/>
+  <text x="544" y="316" text-anchor="middle" font-size="10" font-weight="bold" fill="#4a9eff">MTTR</text>
+  <text x="544" y="332" text-anchor="middle" font-size="10" fill="#8892b0">Tiempo de recuperación</text>
+  <text x="544" y="346" text-anchor="middle" font-size="10" fill="#8892b0">élite: &lt; 1 hora</text>
+
+  <!-- Footer -->
+  <text x="450" y="420" text-anchor="middle" font-size="10" fill="#4a5568">Semana 19 — Etapa 2: DevOps y CI/CD en contexto ágil</text>
+</svg>
