@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 480" font-family="Inter, Roboto, sans-serif">
+  <!-- Background -->
+  <rect width="860" height="480" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="430" y="36" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">Jerarquía del Product Backlog</text>
+  <text x="430" y="54" font-size="11" fill="#8892b0" text-anchor="middle">Semana 09 · User Stories — Del Problema al Backlog</text>
+
+  <!-- ===== LEVEL 0: ÉPICA ===== -->
+  <rect x="220" y="75" width="420" height="56" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="2.5"/>
+  <text x="430" y="99" font-size="14" font-weight="bold" fill="#0052CC" text-anchor="middle">ÉPICA</text>
+  <text x="430" y="117" font-size="10" fill="#8892b0" text-anchor="middle">Objetivo de alto nivel · meses de trabajo · no estimable directamente</text>
+  <text x="315" y="99" font-size="19" fill="#0052CC" text-anchor="middle">⬡</text>
+  <!-- Example -->
+  <rect x="620" y="80" width="220" height="44" rx="6" fill="#16213e" stroke="#0052CC" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="730" y="98" font-size="9" fill="#8892b0" text-anchor="middle">Ej: "Gestión completa</text>
+  <text x="730" y="112" font-size="9" fill="#8892b0" text-anchor="middle">del perfil de usuario"</text>
+
+  <!-- Arrow down -->
+  <line x1="430" y1="131" x2="430" y2="155" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+
+  <!-- ===== LEVEL 1: FEATURE ===== -->
+  <rect x="255" y="155" width="350" height="56" rx="10" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="430" y="179" font-size="13" font-weight="bold" fill="#36B37E" text-anchor="middle">FEATURE</text>
+  <text x="430" y="197" font-size="10" fill="#8892b0" text-anchor="middle">Agrupación de Stories relacionadas · semanas de trabajo</text>
+  <text x="305" y="179" font-size="16" fill="#36B37E" text-anchor="middle">▣</text>
+  <!-- Example -->
+  <rect x="620" y="160" width="220" height="44" rx="6" fill="#16213e" stroke="#36B37E" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="730" y="178" font-size="9" fill="#8892b0" text-anchor="middle">Ej: "Preferencias</text>
+  <text x="730" y="192" font-size="9" fill="#8892b0" text-anchor="middle">de viaje del usuario"</text>
+  <!-- Bracket from ÉPICA to FEATURE -->
+  <line x1="840" y1="103" x2="840" y2="182" stroke="#8892b0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="620" y1="103" x2="840" y2="103" stroke="#8892b0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="620" y1="182" x2="840" y2="182" stroke="#8892b0" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Arrow down -->
+  <line x1="430" y1="211" x2="430" y2="235" stroke="#36B37E" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+
+  <!-- ===== LEVEL 2: USER STORY ===== -->
+  <rect x="170" y="235" width="520" height="80" rx="10" fill="#16213e" stroke="#FF8B00" stroke-width="2"/>
+  <text x="430" y="260" font-size="13" font-weight="bold" fill="#FF8B00" text-anchor="middle">USER STORY</text>
+  <text x="430" y="278" font-size="10" fill="#ffffff" text-anchor="middle">"Como [rol] quiero [acción] para [beneficio]"</text>
+  <text x="430" y="296" font-size="9" fill="#8892b0" text-anchor="middle">Cabe en 1 Sprint · estimable · con criterios de aceptación · cumple INVEST</text>
+  <text x="210" y="260" font-size="14" fill="#FF8B00" text-anchor="middle">◈</text>
+  <!-- Example -->
+  <rect x="700" y="240" width="140" height="65" rx="6" fill="#16213e" stroke="#FF8B00" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="770" y="260" font-size="8" fill="#8892b0" text-anchor="middle">Ej: "Como viajero,</text>
+  <text x="770" y="274" font-size="8" fill="#8892b0" text-anchor="middle">quiero elegir dificultad</text>
+  <text x="770" y="288" font-size="8" fill="#8892b0" text-anchor="middle">preferida para recibir</text>
+  <text x="770" y="302" font-size="8" fill="#8892b0" text-anchor="middle">rutas adaptadas"</text>
+
+  <!-- Criterios de Aceptación box -->
+  <rect x="170" y="320" width="250" height="50" rx="6" fill="#1a1a2e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="295" y="340" font-size="9" font-weight="bold" fill="#36B37E" text-anchor="middle">Criterios de Aceptación (Gherkin)</text>
+  <text x="295" y="356" font-size="8" fill="#8892b0" text-anchor="middle">Dado / Cuando / Entonces</text>
+  <line x1="295" y1="315" x2="295" y2="320" stroke="#36B37E" stroke-width="1.5"/>
+
+  <!-- INVEST badge -->
+  <rect x="438" y="320" width="240" height="50" rx="6" fill="#1a1a2e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="558" y="340" font-size="9" font-weight="bold" fill="#FF8B00" text-anchor="middle">Criterio INVEST</text>
+  <text x="558" y="356" font-size="8" fill="#8892b0" text-anchor="middle">Independent · Negotiable · Valuable</text>
+  <text x="558" y="368" font-size="8" fill="#8892b0" text-anchor="middle">Estimable · Small · Testeable</text>
+  <line x1="558" y1="315" x2="558" y2="320" stroke="#FF8B00" stroke-width="1.5"/>
+
+  <!-- Arrow down -->
+  <line x1="430" y1="315" x2="430" y2="385" stroke="#FF8B00" stroke-width="1.5" marker-end="url(#arrowOrange)"/>
+
+  <!-- ===== LEVEL 3: TASK ===== -->
+  <!-- Multiple task boxes -->
+  <rect x="60" y="385" width="160" height="50" rx="8" fill="#16213e" stroke="#8892b0" stroke-width="1.5"/>
+  <text x="140" y="407" font-size="10" font-weight="bold" fill="#8892b0" text-anchor="middle">TASK</text>
+  <text x="140" y="422" font-size="8" fill="#8892b0" text-anchor="middle">Frontend · 4h · Areli</text>
+
+  <rect x="245" y="385" width="160" height="50" rx="8" fill="#16213e" stroke="#8892b0" stroke-width="1.5"/>
+  <text x="325" y="407" font-size="10" font-weight="bold" fill="#8892b0" text-anchor="middle">TASK</text>
+  <text x="325" y="422" font-size="8" fill="#8892b0" text-anchor="middle">Backend · 6h · Bruno</text>
+
+  <rect x="430" y="385" width="160" height="50" rx="8" fill="#16213e" stroke="#8892b0" stroke-width="1.5"/>
+  <text x="510" y="407" font-size="10" font-weight="bold" fill="#8892b0" text-anchor="middle">TASK</text>
+  <text x="510" y="422" font-size="8" fill="#8892b0" text-anchor="middle">QA · 3h · Carmen</text>
+
+  <rect x="615" y="385" width="160" height="50" rx="8" fill="#16213e" stroke="#8892b0" stroke-width="1.5"/>
+  <text x="695" y="407" font-size="10" font-weight="bold" fill="#8892b0" text-anchor="middle">TASK</text>
+  <text x="695" y="422" font-size="8" fill="#8892b0" text-anchor="middle">Deploy · 1h · Diego</text>
+
+  <!-- Connection lines from Story to Tasks -->
+  <line x1="430" y1="385" x2="140" y2="385" stroke="#8892b0" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="430" y1="385" x2="695" y2="385" stroke="#8892b0" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Level labels on left -->
+  <text x="18" y="107" font-size="9" fill="#0052CC" text-anchor="middle" font-weight="bold">Nivel</text>
+  <text x="18" y="120" font-size="9" fill="#0052CC" text-anchor="middle" font-weight="bold">3</text>
+  <text x="18" y="185" font-size="9" fill="#36B37E" text-anchor="middle" font-weight="bold">Nivel</text>
+  <text x="18" y="198" font-size="9" fill="#36B37E" text-anchor="middle" font-weight="bold">2</text>
+  <text x="18" y="273" font-size="9" fill="#FF8B00" text-anchor="middle" font-weight="bold">Nivel</text>
+  <text x="18" y="286" font-size="9" fill="#FF8B00" text-anchor="middle" font-weight="bold">1</text>
+  <text x="18" y="407" font-size="9" fill="#8892b0" text-anchor="middle" font-weight="bold">Nivel</text>
+  <text x="18" y="420" font-size="9" fill="#8892b0" text-anchor="middle" font-weight="bold">0</text>
+
+  <!-- Legend -->
+  <rect x="20" y="450" width="820" height="22" rx="4" fill="#16213e" opacity="0.7"/>
+  <rect x="35" y="456" width="10" height="10" rx="2" fill="#0052CC"/>
+  <text x="52" y="465" font-size="9" fill="#8892b0">Épica</text>
+  <rect x="105" y="456" width="10" height="10" rx="2" fill="#36B37E"/>
+  <text x="122" y="465" font-size="9" fill="#8892b0">Feature</text>
+  <rect x="185" y="456" width="10" height="10" rx="2" fill="#FF8B00"/>
+  <text x="202" y="465" font-size="9" fill="#8892b0">User Story</text>
+  <rect x="280" y="456" width="10" height="10" rx="2" fill="#8892b0"/>
+  <text x="297" y="465" font-size="9" fill="#8892b0">Task</text>
+  <text x="500" y="465" font-size="9" fill="#8892b0" text-anchor="middle">Una Épica puede tener N Features · Una Feature puede tener N Stories · Una Story tiene N Tasks</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#0052CC"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#36B37E"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#FF8B00"/>
+    </marker>
+  </defs>
+</svg>
