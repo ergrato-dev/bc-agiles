@@ -1,0 +1,95 @@
+<svg viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Roboto, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="460" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Cumulative Flow Diagram (CFD)</text>
+  <text x="450" y="56" text-anchor="middle" font-size="11" fill="#8892b0">Cómo detectar cuellos de botella en el flujo de trabajo</text>
+
+  <!-- CFD Chart Area -->
+  <!-- Axes -->
+  <line x1="80" y1="70" x2="80" y2="330" stroke="#4a5568" stroke-width="1.5"/>
+  <line x1="80" y1="330" x2="720" y2="330" stroke="#4a5568" stroke-width="1.5"/>
+
+  <!-- Y axis label -->
+  <text x="30" y="210" text-anchor="middle" font-size="11" fill="#8892b0" transform="rotate(-90, 30, 210)">Ítems acumulados</text>
+
+  <!-- Y ticks -->
+  <text x="68" y="330" text-anchor="end" font-size="10" fill="#4a5568">0</text>
+  <text x="68" y="275" text-anchor="end" font-size="10" fill="#4a5568">10</text>
+  <text x="68" y="220" text-anchor="end" font-size="10" fill="#4a5568">20</text>
+  <text x="68" y="165" text-anchor="end" font-size="10" fill="#4a5568">30</text>
+  <text x="68" y="110" text-anchor="end" font-size="10" fill="#4a5568">40</text>
+  <line x1="75" y1="275" x2="80" y2="275" stroke="#4a5568" stroke-width="1"/>
+  <line x1="75" y1="220" x2="80" y2="220" stroke="#4a5568" stroke-width="1"/>
+  <line x1="75" y1="165" x2="80" y2="165" stroke="#4a5568" stroke-width="1"/>
+  <line x1="75" y1="110" x2="80" y2="110" stroke="#4a5568" stroke-width="1"/>
+
+  <!-- X axis ticks and labels (days) -->
+  <text x="80" y="348" text-anchor="middle" font-size="10" fill="#4a5568">Día 1</text>
+  <text x="185" y="348" text-anchor="middle" font-size="10" fill="#4a5568">Día 3</text>
+  <text x="295" y="348" text-anchor="middle" font-size="10" fill="#4a5568">Día 5</text>
+  <text x="400" y="348" text-anchor="middle" font-size="10" fill="#4a5568">Día 7</text>
+  <text x="505" y="348" text-anchor="middle" font-size="10" fill="#4a5568">Día 9</text>
+  <text x="613" y="348" text-anchor="middle" font-size="10" fill="#4a5568">Día 11</text>
+  <text x="720" y="348" text-anchor="middle" font-size="10" fill="#4a5568">Día 13</text>
+
+  <!-- Done band (bottom, green) -->
+  <polygon points="80,330 185,314 295,297 400,275 505,253 613,231 720,209" fill="#36B37E" opacity="0.6"/>
+  <polygon points="80,330 720,330 720,209 613,231 505,253 400,275 295,297 185,314" fill="#36B37E" opacity="0.25"/>
+
+  <!-- In Progress band (middle, WARNING wide = bottleneck) -->
+  <polygon points="80,285 185,242 295,198 400,165 505,143 613,121 720,99" fill="none"/>
+  <!-- Fill between Done top and In Progress top -->
+  <polygon points="80,330 185,314 295,297 400,275 505,253 613,231 720,209
+                   720,99 613,121 505,143 400,165 295,198 185,242 80,285"
+           fill="#FF8B00" opacity="0.45"/>
+
+  <!-- To Do band (top, blue) -->
+  <polygon points="80,285 185,242 295,198 400,165 505,143 613,121 720,99
+                   720,80 613,82 505,86 400,90 295,95 185,101 80,110"
+           fill="#0052CC" opacity="0.5"/>
+
+  <!-- Band labels -->
+  <text x="740" y="215" font-size="11" font-weight="bold" fill="#36B37E">Done</text>
+  <text x="740" y="155" font-size="11" font-weight="bold" fill="#FF8B00">In Progress</text>
+  <text x="740" y="93" font-size="11" font-weight="bold" fill="#4a9eff">To Do</text>
+
+  <!-- Bottleneck annotation -->
+  <line x1="295" y1="198" x2="505" y2="143" stroke="#FF8B00" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="290" y="148" width="230" height="44" rx="6" fill="#16213e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="405" y="166" text-anchor="middle" font-size="11" font-weight="bold" fill="#FF8B00">⚠ Cuello de botella</text>
+  <text x="405" y="182" text-anchor="middle" font-size="10" fill="#8892b0">Banda "In Progress" se ensancha</text>
+
+  <!-- Lead Time arrow -->
+  <line x1="80" y1="360" x2="720" y2="360" stroke="#4a9eff" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <defs>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4a9eff"/>
+    </marker>
+  </defs>
+  <text x="400" y="375" text-anchor="middle" font-size="10" fill="#4a9eff">Lead Time (solicitud → entrega)</text>
+
+  <!-- Cycle Time arrow shorter -->
+  <line x1="295" y1="385" x2="720" y2="385" stroke="#36B37E" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+  <defs>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#36B37E"/>
+    </marker>
+  </defs>
+  <text x="508" y="400" text-anchor="middle" font-size="10" fill="#36B37E">Cycle Time (inicio → entrega)</text>
+
+  <!-- WIP measurement -->
+  <line x1="400" y1="165" x2="400" y2="275" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="412" y="222" font-size="10" fill="#ffffff">WIP</text>
+
+  <!-- Little's Law box -->
+  <rect x="40" y="402" width="220" height="44" rx="6" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="150" y="419" text-anchor="middle" font-size="11" font-weight="bold" fill="#0052CC">Ley de Little</text>
+  <text x="150" y="436" text-anchor="middle" font-size="11" fill="#ffffff">Lead Time = WIP ÷ Throughput</text>
+
+  <!-- Healthy vs Unhealthy -->
+  <rect x="540" y="402" width="340" height="44" rx="6" fill="#16213e" stroke="#4a5568" stroke-width="1"/>
+  <text x="560" y="419" font-size="10" fill="#36B37E">✓ Bandas paralelas = flujo saludable</text>
+  <text x="560" y="436" font-size="10" fill="#FF8B00">⚠ Banda que se ensancha = cuello de botella</text>
+</svg>
