@@ -35,7 +35,7 @@
 
   <!-- ===== LeSS COLUMN ===== -->
   <text x="450" y="90" text-anchor="middle" font-size="15" font-weight="bold" fill="#36B37E">LeSS</text>
-  <text x="450" y="106" text-anchor="middle" font-size="10" fill="#8892b0">2–8 equipos · Larman & Vodde</text>
+  <text x="450" y="106" text-anchor="middle" font-size="10" fill="#8892b0">2–8 equipos · Larman &amp; Vodde</text>
 
   <!-- 1 PO -->
   <rect x="370" y="118" width="160" height="38" rx="6" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
