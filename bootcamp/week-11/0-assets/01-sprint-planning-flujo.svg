@@ -1,0 +1,104 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Roboto, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="480" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Sprint Planning — Flujo de dos partes</text>
+
+  <!-- PARTE 1: ¿QUÉ? -->
+  <rect x="30" y="60" width="380" height="360" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="220" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#0052CC">PARTE 1: ¿QUÉ construiremos?</text>
+
+  <!-- Step 1 -->
+  <rect x="55" y="100" width="330" height="60" rx="6" fill="#1a1a2e" stroke="#0052CC" stroke-width="1"/>
+  <text x="220" y="124" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">Calcular capacidad del equipo</text>
+  <text x="220" y="142" text-anchor="middle" font-size="10" fill="#aabbcc">Días disponibles × Focus Factor (70–80%)</text>
+
+  <!-- Arrow -->
+  <line x1="220" y1="160" x2="220" y2="176" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <rect x="55" y="176" width="330" height="60" rx="6" fill="#1a1a2e" stroke="#0052CC" stroke-width="1"/>
+  <text x="220" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">PO presenta tope del Product Backlog</text>
+  <text x="220" y="218" text-anchor="middle" font-size="10" fill="#aabbcc">Stories ordenadas por valor de negocio</text>
+
+  <!-- Arrow -->
+  <line x1="220" y1="236" x2="220" y2="252" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <rect x="55" y="252" width="330" height="60" rx="6" fill="#1a1a2e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="220" y="276" text-anchor="middle" font-size="12" font-weight="bold" fill="#36B37E">Equipo selecciona Stories</text>
+  <text x="220" y="294" text-anchor="middle" font-size="10" fill="#aabbcc">Commitment del equipo — no del PO</text>
+
+  <!-- Arrow -->
+  <line x1="220" y1="312" x2="220" y2="328" stroke="#36B37E" stroke-width="1.5" marker-end="url(#arrow2)"/>
+
+  <!-- Sprint Goal box -->
+  <rect x="55" y="328" width="330" height="68" rx="6" fill="#0f3460" stroke="#36B37E" stroke-width="2"/>
+  <text x="220" y="350" text-anchor="middle" font-size="11" font-weight="bold" fill="#36B37E">✓ Sprint Goal formulado</text>
+  <text x="220" y="368" text-anchor="middle" font-size="10" fill="#aabbcc">"Para [usuario] que pueda [capacidad]</text>
+  <text x="220" y="384" text-anchor="middle" font-size="10" fill="#aabbcc">logrando [valor de negocio]"</text>
+
+  <!-- PARTE 2: ¿CÓMO? -->
+  <rect x="490" y="60" width="380" height="360" rx="10" fill="#16213e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="680" y="88" text-anchor="middle" font-size="13" font-weight="bold" fill="#FF8B00">PARTE 2: ¿CÓMO lo construiremos?</text>
+
+  <!-- Step A -->
+  <rect x="515" y="100" width="330" height="60" rx="6" fill="#1a1a2e" stroke="#FF8B00" stroke-width="1"/>
+  <text x="680" y="124" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">Equipo descompone Stories en tareas</text>
+  <text x="680" y="142" text-anchor="middle" font-size="10" fill="#aabbcc">Tareas de 4–8 horas de duración ideal</text>
+
+  <!-- Arrow -->
+  <line x1="680" y1="160" x2="680" y2="176" stroke="#FF8B00" stroke-width="1.5" marker-end="url(#arrow3)"/>
+
+  <!-- Step B -->
+  <rect x="515" y="176" width="330" height="60" rx="6" fill="#1a1a2e" stroke="#FF8B00" stroke-width="1"/>
+  <text x="680" y="200" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">¿Se ajusta a la capacidad?</text>
+  <text x="680" y="218" text-anchor="middle" font-size="10" fill="#aabbcc">Comparar suma de esfuerzo con días disponibles</text>
+
+  <!-- Fork decision -->
+  <polygon points="680,252 630,290 730,290" fill="#1a1a2e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="680" y="279" text-anchor="middle" font-size="10" fill="#FF8B00">¿Cabe?</text>
+
+  <!-- YES path -->
+  <line x1="680" y1="290" x2="680" y2="320" stroke="#36B37E" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <rect x="515" y="320" width="140" height="50" rx="6" fill="#0f3460" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="585" y="340" text-anchor="middle" font-size="10" font-weight="bold" fill="#36B37E">✅ Sprint Backlog</text>
+  <text x="585" y="358" text-anchor="middle" font-size="10" fill="#aabbcc">confirmado</text>
+
+  <!-- NO path -->
+  <line x1="680" y1="290" x2="800" y2="290" stroke="#FF8B00" stroke-width="1.5"/>
+  <line x1="800" y1="290" x2="800" y2="320" stroke="#FF8B00" stroke-width="1.5" marker-end="url(#arrow3)"/>
+  <rect x="720" y="320" width="140" height="50" rx="6" fill="#1a1a2e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="790" y="340" text-anchor="middle" font-size="10" font-weight="bold" fill="#FF8B00">⚠️ Renegociar</text>
+  <text x="790" y="358" text-anchor="middle" font-size="10" fill="#aabbcc">con el PO</text>
+
+  <!-- Labels YES/NO -->
+  <text x="692" y="308" font-size="9" fill="#36B37E">SÍ</text>
+  <text x="740" y="285" font-size="9" fill="#FF8B00">NO</text>
+
+  <!-- Duration indicator -->
+  <rect x="515" y="388" width="330" height="28" rx="4" fill="#0f3460"/>
+  <text x="680" y="407" text-anchor="middle" font-size="10" fill="#aabbcc">⏱ Sprint Planning: máx. 8 h para Sprint de 4 semanas | 4 h para 2 semanas</text>
+
+  <!-- Arrow between parts -->
+  <line x1="410" y1="240" x2="490" y2="240" stroke="#aabbcc" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow4)"/>
+  <text x="450" y="232" text-anchor="middle" font-size="9" fill="#aabbcc">Sprint Goal</text>
+  <text x="450" y="250" text-anchor="middle" font-size="9" fill="#aabbcc">→ guía la Parte 2</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#0052CC"/>
+    </marker>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#36B37E"/>
+    </marker>
+    <marker id="arrow3" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#FF8B00"/>
+    </marker>
+    <marker id="arrow4" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#aabbcc"/>
+    </marker>
+  </defs>
+</svg>
