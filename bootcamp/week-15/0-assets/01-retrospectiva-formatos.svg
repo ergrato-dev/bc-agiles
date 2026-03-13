@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" width="920" height="500">
+  <!-- Fondo -->
+  <rect width="920" height="500" fill="#1a1a2e"/>
+
+  <!-- Título -->
+  <text x="460" y="35" font-family="Inter, Roboto, sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Formatos de Retrospectiva</text>
+
+  <!-- ===================================== -->
+  <!-- FORMATO 1: 4Ls                        -->
+  <!-- ===================================== -->
+  <rect x="20" y="55" width="274" height="200" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="157" y="82" font-family="Inter, Roboto, sans-serif" font-size="13" font-weight="700" fill="#7eb3ff" text-anchor="middle">4Ls</text>
+  <text x="157" y="98" font-family="Inter, Roboto, sans-serif" font-size="10" fill="#b0c4de" text-anchor="middle">Equipo maduro · Sprint mixto</text>
+
+  <rect x="30" y="110" width="120" height="55" rx="6" fill="#0052CC" fill-opacity="0.2" stroke="#0052CC" stroke-width="1"/>
+  <text x="90" y="130" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#7eb3ff" text-anchor="middle">Liked</text>
+  <text x="90" y="148" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">¿Qué funcionó bien?</text>
+
+  <rect x="164" y="110" width="120" height="55" rx="6" fill="#36B37E" fill-opacity="0.2" stroke="#36B37E" stroke-width="1"/>
+  <text x="224" y="130" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#36B37E" text-anchor="middle">Learned</text>
+  <text x="224" y="148" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">¿Qué aprendimos?</text>
+
+  <rect x="30" y="174" width="120" height="55" rx="6" fill="#FF8B00" fill-opacity="0.2" stroke="#FF8B00" stroke-width="1"/>
+  <text x="90" y="194" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#FF8B00" text-anchor="middle">Lacked</text>
+  <text x="90" y="212" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">¿Qué faltó?</text>
+
+  <rect x="164" y="174" width="120" height="55" rx="6" fill="#a855f7" fill-opacity="0.2" stroke="#a855f7" stroke-width="1"/>
+  <text x="224" y="194" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#c084fc" text-anchor="middle">Longed for</text>
+  <text x="224" y="212" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">¿Qué quisiéramos?</text>
+
+  <!-- ===================================== -->
+  <!-- FORMATO 2: Start / Stop / Continue    -->
+  <!-- ===================================== -->
+  <rect x="320" y="55" width="274" height="200" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="457" y="82" font-family="Inter, Roboto, sans-serif" font-size="13" font-weight="700" fill="#7eb3ff" text-anchor="middle">Start / Stop / Continue</text>
+  <text x="457" y="98" font-family="Inter, Roboto, sans-serif" font-size="10" fill="#b0c4de" text-anchor="middle">Equipo nuevo · Cambio de hábitos</text>
+
+  <rect x="330" y="112" width="254" height="50" rx="6" fill="#36B37E" fill-opacity="0.2" stroke="#36B37E" stroke-width="1"/>
+  <text x="457" y="133" font-family="Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#36B37E" text-anchor="middle">START</text>
+  <text x="457" y="152" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Deberíamos empezar a hacer</text>
+
+  <rect x="330" y="170" width="254" height="50" rx="6" fill="#FF8B00" fill-opacity="0.2" stroke="#FF8B00" stroke-width="1"/>
+  <text x="457" y="191" font-family="Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#FF8B00" text-anchor="middle">STOP</text>
+  <text x="457" y="210" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Deberíamos dejar de hacer</text>
+
+  <!-- CONTINUE -->
+  <rect x="330" y="228" width="254" height="20" rx="6" fill="#0052CC" fill-opacity="0.2" stroke="#0052CC" stroke-width="1"/>
+  <text x="457" y="243" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#7eb3ff" text-anchor="middle">CONTINUE — Está funcionando, mantener</text>
+
+  <!-- ===================================== -->
+  <!-- FORMATO 3: Fishbone                   -->
+  <!-- ===================================== -->
+  <rect x="620" y="55" width="280" height="200" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="760" y="82" font-family="Inter, Roboto, sans-serif" font-size="13" font-weight="700" fill="#7eb3ff" text-anchor="middle">Fishbone (Ishikawa)</text>
+  <text x="760" y="98" font-family="Inter, Roboto, sans-serif" font-size="10" fill="#b0c4de" text-anchor="middle">Problema recurrente · Causa raíz</text>
+
+  <!-- Espina central -->
+  <line x1="630" y1="170" x2="880" y2="170" stroke="#0052CC" stroke-width="2"/>
+  <!-- Cabeza -->
+  <rect x="845" y="152" width="50" height="36" rx="5" fill="#FF8B00" fill-opacity="0.3" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="870" y="175" font-family="Inter, Roboto, sans-serif" font-size="9" font-weight="700" fill="#FF8B00" text-anchor="middle">Problema</text>
+  <!-- Espinas -->
+  <line x1="700" y1="170" x2="670" y2="135" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="655" y="130" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Personas</text>
+  <line x1="740" y1="170" x2="715" y2="135" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="700" y="130" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Proceso</text>
+  <line x1="700" y1="170" x2="670" y2="205" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="655" y="218" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Herramientas</text>
+  <line x1="740" y1="170" x2="715" y2="205" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="700" y="218" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Contexto</text>
+  <!-- Label causa raiz -->
+  <text x="760" y="248" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#ffa940" text-anchor="middle">Identifica causa raíz, no síntomas</text>
+
+  <!-- ===================================== -->
+  <!-- Sección de Acciones SMART             -->
+  <!-- ===================================== -->
+  <rect x="20" y="285" width="880" height="120" rx="10" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="460" y="310" font-family="Inter, Roboto, sans-serif" font-size="13" font-weight="700" fill="#36B37E" text-anchor="middle">Toda retrospectiva termina con Acciones SMART</text>
+
+  <!-- S -->
+  <rect x="40" y="325" width="145" height="60" rx="6" fill="#36B37E" fill-opacity="0.1" stroke="#36B37E" stroke-width="1"/>
+  <text x="112" y="348" font-family="Inter, Roboto, sans-serif" font-size="13" font-weight="700" fill="#36B37E" text-anchor="middle">S · M · A · R · T</text>
+  <text x="112" y="367" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Específica · Medible</text>
+  <text x="112" y="380" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Alcanzable · Relevante · Temporal</text>
+
+  <!-- Ejemplo -->
+  <rect x="200" y="325" width="380" height="60" rx="6" fill="#0052CC" fill-opacity="0.12" stroke="#0052CC" stroke-width="1"/>
+  <text x="390" y="343" font-family="Inter, Roboto, sans-serif" font-size="10" font-weight="700" fill="#7eb3ff" text-anchor="middle">Ejemplo de acción SMART:</text>
+  <text x="390" y="360" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">"Ana configura el canal #sprint-dudas en Slack.</text>
+  <text x="390" y="374" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Respuesta garantizada en &lt;2 h. Activo desde el día 1 del Sprint 6."</text>
+
+  <!-- Regla -->
+  <rect x="595" y="325" width="290" height="60" rx="6" fill="#FF8B00" fill-opacity="0.12" stroke="#FF8B00" stroke-width="1"/>
+  <text x="740" y="343" font-family="Inter, Roboto, sans-serif" font-size="10" font-weight="700" fill="#ffa940" text-anchor="middle">Regla de oro</text>
+  <text x="740" y="360" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Máximo 1–3 acciones por Sprint.</text>
+  <text x="740" y="374" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Toda acción tiene responsable + fecha.</text>
+
+  <!-- Footer -->
+  <text x="460" y="470" font-family="Inter, Roboto, sans-serif" font-size="10" fill="#555577" text-anchor="middle">Si el equipo sale sin acciones comprometidas → no hubo retrospectiva</text>
+</svg>
