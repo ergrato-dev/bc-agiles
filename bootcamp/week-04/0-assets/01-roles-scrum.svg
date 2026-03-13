@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" font-family="Inter, Roboto, Open Sans, system-ui, sans-serif">
+  <rect width="900" height="420" fill="#1a1a2e"/>
+  <text x="450" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Roles del Scrum Team</text>
+
+  <!-- Scrum Master -->
+  <rect x="30" y="55" width="240" height="260" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="150" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="#90cdf4">Scrum Master</text>
+  <text x="150" y="100" text-anchor="middle" font-size="11" fill="#718096">Accountability</text>
+  <rect x="44" y="112" width="212" height="18" rx="3" fill="#0d2441"/>
+  <text x="150" y="125" text-anchor="middle" font-size="11" fill="#e2e8f0">Facilitar eventos Scrum</text>
+  <rect x="44" y="136" width="212" height="18" rx="3" fill="#0d2441"/>
+  <text x="150" y="149" text-anchor="middle" font-size="11" fill="#e2e8f0">Eliminar impedimentos</text>
+  <rect x="44" y="160" width="212" height="18" rx="3" fill="#0d2441"/>
+  <text x="150" y="173" text-anchor="middle" font-size="11" fill="#e2e8f0">Coaching al equipo y org.</text>
+  <rect x="44" y="184" width="212" height="18" rx="3" fill="#0d2441"/>
+  <text x="150" y="197" text-anchor="middle" font-size="11" fill="#e2e8f0">Proteger al equipo</text>
+  <!-- NOT list -->
+  <text x="150" y="225" text-anchor="middle" font-size="11" font-weight="600" fill="#fc8181">❌ No es...</text>
+  <text x="150" y="244" text-anchor="middle" font-size="11" fill="#a0aec0">Project Manager</text>
+  <text x="150" y="262" text-anchor="middle" font-size="11" fill="#a0aec0">Asignador de tareas</text>
+  <text x="150" y="280" text-anchor="middle" font-size="11" fill="#a0aec0">Reportador al management</text>
+  <!-- Autoridad -->
+  <rect x="44" y="296" width="212" height="10" rx="3" fill="#0052CC" opacity="0.6"/>
+  <text x="150" y="320" text-anchor="middle" font-size="10" fill="#90cdf4">Influye sin autoridad formal</text>
+
+  <!-- Product Owner -->
+  <rect x="330" y="55" width="240" height="260" rx="10" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="450" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="#9ae6b4">Product Owner</text>
+  <text x="450" y="100" text-anchor="middle" font-size="11" fill="#718096">Accountability</text>
+  <rect x="344" y="112" width="212" height="18" rx="3" fill="#0d2a1c"/>
+  <text x="450" y="125" text-anchor="middle" font-size="11" fill="#e2e8f0">Visión del producto</text>
+  <rect x="344" y="136" width="212" height="18" rx="3" fill="#0d2a1c"/>
+  <text x="450" y="149" text-anchor="middle" font-size="11" fill="#e2e8f0">Gestionar Product Backlog</text>
+  <rect x="344" y="160" width="212" height="18" rx="3" fill="#0d2a1c"/>
+  <text x="450" y="173" text-anchor="middle" font-size="11" fill="#e2e8f0">Priorizar por valor</text>
+  <rect x="344" y="184" width="212" height="18" rx="3" fill="#0d2a1c"/>
+  <text x="450" y="197" text-anchor="middle" font-size="11" fill="#e2e8f0">Cancelar el Sprint (si aplica)</text>
+  <text x="450" y="225" text-anchor="middle" font-size="11" font-weight="600" fill="#fc8181">❌ No es...</text>
+  <text x="450" y="244" text-anchor="middle" font-size="11" fill="#a0aec0">Secretario de requisitos</text>
+  <text x="450" y="262" text-anchor="middle" font-size="11" fill="#a0aec0">PO sin autoridad real</text>
+  <text x="450" y="280" text-anchor="middle" font-size="11" fill="#a0aec0">Intermediario pasivo</text>
+  <rect x="344" y="296" width="212" height="10" rx="3" fill="#36B37E" opacity="0.6"/>
+  <text x="450" y="320" text-anchor="middle" font-size="10" fill="#9ae6b4">Autoridad sobre el backlog</text>
+
+  <!-- Equipo de Desarrollo -->
+  <rect x="630" y="55" width="240" height="260" rx="10" fill="#16213e" stroke="#FF8B00" stroke-width="2"/>
+  <text x="750" y="80" text-anchor="middle" font-size="14" font-weight="700" fill="#fbd38d">Equipo de Desarrollo</text>
+  <text x="750" y="100" text-anchor="middle" font-size="11" fill="#718096">Accountability (Developers)</text>
+  <rect x="644" y="112" width="212" height="18" rx="3" fill="#2a1d00"/>
+  <text x="750" y="125" text-anchor="middle" font-size="11" fill="#e2e8f0">Crear el Sprint Backlog</text>
+  <rect x="644" y="136" width="212" height="18" rx="3" fill="#2a1d00"/>
+  <text x="750" y="149" text-anchor="middle" font-size="11" fill="#e2e8f0">Entregar Incremento Done</text>
+  <rect x="644" y="160" width="212" height="18" rx="3" fill="#2a1d00"/>
+  <text x="750" y="173" text-anchor="middle" font-size="11" fill="#e2e8f0">Adaptar plan en Daily Scrum</text>
+  <rect x="644" y="184" width="212" height="18" rx="3" fill="#2a1d00"/>
+  <text x="750" y="197" text-anchor="middle" font-size="11" fill="#e2e8f0">Escalar impedimentos al SM</text>
+  <text x="750" y="225" text-anchor="middle" font-size="11" font-weight="600" fill="#fc8181">❌ No son...</text>
+  <text x="750" y="244" text-anchor="middle" font-size="11" fill="#a0aec0">Recursos asignables</text>
+  <text x="750" y="262" text-anchor="middle" font-size="11" fill="#a0aec0">Ejecutores de órdenes</text>
+  <text x="750" y="280" text-anchor="middle" font-size="11" fill="#a0aec0">Especialistas en silos</text>
+  <rect x="644" y="296" width="212" height="10" rx="3" fill="#FF8B00" opacity="0.6"/>
+  <text x="750" y="320" text-anchor="middle" font-size="10" fill="#fbd38d">Autoorganizados + cross-functional</text>
+
+  <!-- Sprint Team boundary -->
+  <rect x="20" y="340" width="860" height="60" rx="8" fill="#0d1b2a" stroke="#2d3748" stroke-width="1"/>
+  <text x="450" y="362" text-anchor="middle" font-size="12" font-weight="600" fill="#a0aec0">El Scrum Team</text>
+  <text x="450" y="382" text-anchor="middle" font-size="11" fill="#718096">Sin jerarquía interna · Máximo 10 personas · Responsable de todo el proceso y el producto</text>
+</svg>
