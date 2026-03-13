@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440">
+  <rect width="900" height="440" fill="#1a1a2e"/>
+
+  <!-- Título -->
+  <text x="450" y="32" font-family="Inter, Roboto, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">Sprint Completo — Integración Etapa 1 (semanas 9–15)</text>
+
+  <!-- Flecha central horizontal -->
+  <line x1="30" y1="200" x2="870" y2="200" stroke="#0052CC" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- ===== Sprint Planning ===== -->
+  <rect x="20" y="65" width="155" height="110" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="97" y="90" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#7eb3ff" text-anchor="middle">SPRINT PLANNING</text>
+  <text x="97" y="107" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Sprint Goal</text>
+  <text x="97" y="121" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Backlog estimado</text>
+  <text x="97" y="135" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Capacidad × foco</text>
+  <text x="97" y="150" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#ffa940" text-anchor="middle">← sem 10, 11</text>
+  <!-- Flecha derecha -->
+  <line x1="175" y1="120" x2="210" y2="120" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ===== Daily + Impedimentos ===== -->
+  <rect x="210" y="65" width="155" height="110" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="287" y="90" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#7eb3ff" text-anchor="middle">DAILY SCRUM</text>
+  <text x="287" y="107" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Sincronización diaria</text>
+  <text x="287" y="121" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Impedimentos detectados</text>
+  <text x="287" y="135" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">ROAM actualizado</text>
+  <text x="287" y="150" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#ffa940" text-anchor="middle">← sem 13</text>
+  <line x1="365" y1="120" x2="400" y2="120" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ===== Burndown ===== -->
+  <rect x="400" y="65" width="155" height="110" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="477" y="90" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#7eb3ff" text-anchor="middle">BURNDOWN</text>
+  <text x="477" y="107" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Puntos restantes/día</text>
+  <text x="477" y="121" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Ideal vs. real</text>
+  <text x="477" y="135" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Velocity del Sprint</text>
+  <text x="477" y="150" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#ffa940" text-anchor="middle">← sem 12</text>
+  <line x1="555" y1="120" x2="590" y2="120" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ===== Sprint Review ===== -->
+  <rect x="590" y="65" width="155" height="110" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="667" y="90" font-family="Inter, Roboto, sans-serif" font-size="11" font-weight="700" fill="#7eb3ff" text-anchor="middle">SPRINT REVIEW</text>
+  <text x="667" y="107" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Demo del Incremento</text>
+  <text x="667" y="121" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Feedback clasificado</text>
+  <text x="667" y="135" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Backlog actualizado</text>
+  <text x="667" y="150" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#ffa940" text-anchor="middle">← sem 14</text>
+  <line x1="745" y1="120" x2="780" y2="120" stroke="#0052CC" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- ===== Retrospectiva ===== -->
+  <rect x="780" y="65" width="110" height="110" rx="8" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="835" y="90" font-family="Inter, Roboto, sans-serif" font-size="10" font-weight="700" fill="#36B37E" text-anchor="middle">RETRO</text>
+  <text x="835" y="107" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Formato 4Ls</text>
+  <text x="835" y="121" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">5 Whys</text>
+  <text x="835" y="135" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#b0c4de" text-anchor="middle">Acciones SMART</text>
+  <text x="835" y="150" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#ffa940" text-anchor="middle">← sem 15</text>
+
+  <!-- Flecha de regreso (loop) -->
+  <path d="M 835 175 L 835 340 L 97 340 L 97 175" stroke="#36B37E" stroke-width="1.5" fill="none" stroke-dasharray="5,3" marker-end="url(#arrGreen)"/>
+  <text x="466" y="360" font-family="Inter, Roboto, sans-serif" font-size="10" fill="#36B37E" text-anchor="middle">↺ Siguiente Sprint — Backlog actualizado + acciones SMART aplicadas</text>
+
+  <!-- Artefactos clave (fila inferior) -->
+  <text x="97" y="400" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#555577" text-anchor="middle">Sprint Goal</text>
+  <text x="287" y="400" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#555577" text-anchor="middle">ROAM</text>
+  <text x="477" y="400" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#555577" text-anchor="middle">Burndown</text>
+  <text x="667" y="400" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#555577" text-anchor="middle">Acta de Review</text>
+  <text x="835" y="400" font-family="Inter, Roboto, sans-serif" font-size="9" fill="#555577" text-anchor="middle">Acciones</text>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0052CC"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#36B37E"/>
+    </marker>
+  </defs>
+</svg>
