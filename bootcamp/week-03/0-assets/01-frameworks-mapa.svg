@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" font-family="Inter, Roboto, Open Sans, system-ui, sans-serif">
+  <rect width="900" height="440" fill="#1a1a2e"/>
+  <text x="450" y="32" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Panorama de Frameworks Ágiles</text>
+
+  <!-- Scrum -->
+  <rect x="30" y="55" width="190" height="175" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="125" y="79" text-anchor="middle" font-size="14" font-weight="700" fill="#90cdf4">Scrum</text>
+  <rect x="44" y="91" width="162" height="22" rx="4" fill="#0d2441"/>
+  <text x="125" y="107" text-anchor="middle" font-size="11" fill="#90cdf4">Roles: SM · PO · Dev Team</text>
+  <rect x="44" y="119" width="162" height="22" rx="4" fill="#0d2441"/>
+  <text x="125" y="135" text-anchor="middle" font-size="11" fill="#e2e8f0">Eventos: Sprint 1–4 sem.</text>
+  <rect x="44" y="147" width="162" height="22" rx="4" fill="#0d2441"/>
+  <text x="125" y="163" text-anchor="middle" font-size="11" fill="#e2e8f0">Artefactos: Backlogs</text>
+  <text x="125" y="195" text-anchor="middle" font-size="10" fill="#a0aec0">Equipos 3–9 personas</text>
+  <text x="125" y="211" text-anchor="middle" font-size="10" fill="#a0aec0">Producto + iteraciones</text>
+
+  <!-- Kanban -->
+  <rect x="240" y="55" width="190" height="175" rx="8" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="335" y="79" text-anchor="middle" font-size="14" font-weight="700" fill="#9ae6b4">Kanban</text>
+  <rect x="254" y="91" width="162" height="22" rx="4" fill="#0d2a1c"/>
+  <text x="335" y="107" text-anchor="middle" font-size="11" fill="#9ae6b4">Sin roles fijos</text>
+  <rect x="254" y="119" width="162" height="22" rx="4" fill="#0d2a1c"/>
+  <text x="335" y="135" text-anchor="middle" font-size="11" fill="#e2e8f0">Flujo continuo + WIP limits</text>
+  <rect x="254" y="147" width="162" height="22" rx="4" fill="#0d2a1c"/>
+  <text x="335" y="163" text-anchor="middle" font-size="11" fill="#e2e8f0">Tablero visual + métricas</text>
+  <text x="335" y="195" text-anchor="middle" font-size="10" fill="#a0aec0">Soporte / mantenimiento</text>
+  <text x="335" y="211" text-anchor="middle" font-size="10" fill="#a0aec0">Trabajo impredecible</text>
+
+  <!-- XP -->
+  <rect x="450" y="55" width="190" height="175" rx="8" fill="#16213e" stroke="#FF8B00" stroke-width="2"/>
+  <text x="545" y="79" text-anchor="middle" font-size="14" font-weight="700" fill="#fbd38d">XP</text>
+  <rect x="464" y="91" width="162" height="22" rx="4" fill="#2a1d00"/>
+  <text x="545" y="107" text-anchor="middle" font-size="11" fill="#fbd38d">Coach + Customer + Devs</text>
+  <rect x="464" y="119" width="162" height="22" rx="4" fill="#2a1d00"/>
+  <text x="545" y="135" text-anchor="middle" font-size="11" fill="#e2e8f0">TDD · Pair · Refactor · CI</text>
+  <rect x="464" y="147" width="162" height="22" rx="4" fill="#2a1d00"/>
+  <text x="545" y="163" text-anchor="middle" font-size="11" fill="#e2e8f0">Iteraciones 1–2 semanas</text>
+  <text x="545" y="195" text-anchor="middle" font-size="10" fill="#a0aec0">Calidad código crítica</text>
+  <text x="545" y="211" text-anchor="middle" font-size="10" fill="#a0aec0">Alta cultura técnica</text>
+
+  <!-- SAFe -->
+  <rect x="660" y="55" width="210" height="175" rx="8" fill="#16213e" stroke="#805ad5" stroke-width="2"/>
+  <text x="765" y="79" text-anchor="middle" font-size="14" font-weight="700" fill="#d6bcfa">SAFe</text>
+  <rect x="674" y="91" width="182" height="22" rx="4" fill="#1e1035"/>
+  <text x="765" y="107" text-anchor="middle" font-size="11" fill="#d6bcfa">Niveles: Team/Program/Portfolio</text>
+  <rect x="674" y="119" width="182" height="22" rx="4" fill="#1e1035"/>
+  <text x="765" y="135" text-anchor="middle" font-size="11" fill="#e2e8f0">ART: Agile Release Train</text>
+  <rect x="674" y="147" width="182" height="22" rx="4" fill="#1e1035"/>
+  <text x="765" y="163" text-anchor="middle" font-size="11" fill="#e2e8f0">PI Planning cada 10–12 semanas</text>
+  <text x="765" y="195" text-anchor="middle" font-size="10" fill="#a0aec0">5+ equipos coordinados</text>
+  <text x="765" y="211" text-anchor="middle" font-size="10" fill="#a0aec0">Org. grande o corporativa</text>
+
+  <!-- Combinaciones -->
+  <rect x="30" y="255" width="840" height="160" rx="8" fill="#0d1b2a" stroke="#2d3748" stroke-width="1"/>
+  <text x="450" y="278" text-anchor="middle" font-size="13" font-weight="600" fill="#a0aec0">Combinaciones frecuentes</text>
+
+  <!-- Scrumban -->
+  <rect x="50" y="294" width="240" height="100" rx="6" fill="#16213e" stroke="#4a5568" stroke-width="1"/>
+  <text x="170" y="314" text-anchor="middle" font-size="12" font-weight="600" fill="#e2e8f0">Scrumban</text>
+  <text x="170" y="334" text-anchor="middle" font-size="11" fill="#a0aec0">Scrum para estructura</text>
+  <text x="170" y="352" text-anchor="middle" font-size="11" fill="#a0aec0">Kanban para el flujo visual</text>
+  <text x="170" y="372" text-anchor="middle" font-size="10" fill="#718096">Soporte + desarrollo</text>
+
+  <!-- Scrum + XP -->
+  <rect x="330" y="294" width="240" height="100" rx="6" fill="#16213e" stroke="#4a5568" stroke-width="1"/>
+  <text x="450" y="314" text-anchor="middle" font-size="12" font-weight="600" fill="#e2e8f0">Scrum + XP</text>
+  <text x="450" y="334" text-anchor="middle" font-size="11" fill="#a0aec0">Scrum organiza el producto</text>
+  <text x="450" y="352" text-anchor="middle" font-size="11" fill="#a0aec0">XP define prácticas técnicas</text>
+  <text x="450" y="372" text-anchor="middle" font-size="10" fill="#718096">Equipos de producto maduros</text>
+
+  <!-- SAFe con Scrum -->
+  <rect x="610" y="294" width="240" height="100" rx="6" fill="#16213e" stroke="#4a5568" stroke-width="1"/>
+  <text x="730" y="314" text-anchor="middle" font-size="12" font-weight="600" fill="#e2e8f0">SAFe + Scrum Teams</text>
+  <text x="730" y="334" text-anchor="middle" font-size="11" fill="#a0aec0">SAFe coordina programas</text>
+  <text x="730" y="352" text-anchor="middle" font-size="11" fill="#a0aec0">Scrum ejecuta en cada equipo</text>
+  <text x="730" y="372" text-anchor="middle" font-size="10" fill="#718096">Corporaciones con múltiples ARTs</text>
+</svg>

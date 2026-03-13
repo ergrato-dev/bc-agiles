@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" width="860" height="380" font-family="Inter, Roboto, Open Sans, system-ui, sans-serif">
+  <rect width="860" height="380" fill="#1a1a2e"/>
+  <text x="430" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Árbol de decisión: ¿Qué framework uso?</text>
+
+  <!-- Pregunta 1 -->
+  <rect x="310" y="50" width="240" height="44" rx="8" fill="#0052CC" stroke="#90cdf4" stroke-width="1.2"/>
+  <text x="430" y="77" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">¿5+ equipos en un producto?</text>
+
+  <!-- Sí → SAFe/LeSS -->
+  <line x1="430" y1="94" x2="720" y2="145" stroke="#805ad5" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="610" y="130" font-size="10" fill="#d6bcfa">Sí</text>
+  <rect x="620" y="148" width="200" height="36" rx="6" fill="#1e1035" stroke="#805ad5" stroke-width="1.2"/>
+  <text x="720" y="171" text-anchor="middle" font-size="12" font-weight="600" fill="#d6bcfa">SAFe / LeSS / Nexus</text>
+
+  <!-- No → Pregunta 2 -->
+  <line x1="430" y1="94" x2="430" y2="148" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="438" y="130" font-size="10" fill="#a0aec0">No</text>
+  <rect x="310" y="148" width="240" height="44" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="1.2"/>
+  <text x="430" y="175" text-anchor="middle" font-size="12" fill="#e2e8f0">¿Trabajo impredecible o soporte?</text>
+
+  <!-- Sí → Kanban -->
+  <line x1="310" y1="170" x2="130" y2="240" stroke="#36B37E" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="195" y="218" font-size="10" fill="#9ae6b4">Sí</text>
+  <rect x="30" y="242" width="200" height="36" rx="6" fill="#0d2a1c" stroke="#36B37E" stroke-width="1.2"/>
+  <text x="130" y="265" text-anchor="middle" font-size="12" font-weight="600" fill="#9ae6b4">Kanban (o Scrumban)</text>
+
+  <!-- No → Pregunta 3 -->
+  <line x1="430" y1="192" x2="430" y2="246" stroke="#4a5568" stroke-width="1.5"/>
+  <text x="438" y="228" font-size="10" fill="#a0aec0">No</text>
+  <rect x="310" y="248" width="240" height="44" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="1.2"/>
+  <text x="430" y="275" text-anchor="middle" font-size="12" fill="#e2e8f0">¿Alta cultura técnica (TDD, CI)?</text>
+
+  <!-- Sí → XP o Scrum+XP -->
+  <line x1="550" y1="270" x2="660" y2="320" stroke="#FF8B00" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="630" y="308" font-size="10" fill="#fbd38d">Sí</text>
+  <rect x="620" y="323" width="200" height="36" rx="6" fill="#2a1d00" stroke="#FF8B00" stroke-width="1.2"/>
+  <text x="720" y="346" text-anchor="middle" font-size="12" font-weight="600" fill="#fbd38d">XP o Scrum + XP</text>
+
+  <!-- No → Scrum -->
+  <line x1="430" y1="292" x2="430" y2="324" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="438" y="316" font-size="10" fill="#a0aec0">No</text>
+  <rect x="330" y="326" width="200" height="36" rx="6" fill="#0d2441" stroke="#0052CC" stroke-width="1.8"/>
+  <text x="430" y="349" text-anchor="middle" font-size="13" font-weight="700" fill="#90cdf4">Scrum</text>
+
+  <!-- Nota bottom -->
+  <text x="430" y="374" text-anchor="middle" font-size="10" fill="#4a5568">Los frameworks pueden combinarse. Este árbol es orientativo, no prescriptivo.</text>
+</svg>
