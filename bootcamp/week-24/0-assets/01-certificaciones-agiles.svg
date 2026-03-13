@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480">
+  <!-- Background -->
+  <rect width="900" height="480" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="34" font-family="Inter,Roboto,sans-serif" font-size="16" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Rutas de Certificación Ágil</text>
+
+  <!-- ============ PSM I PATH ============ -->
+  <rect x="20" y="50" width="260" height="160" rx="8" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="150" y="75" font-family="Inter,Roboto,sans-serif" font-size="13" font-weight="bold" fill="#4a9eff" text-anchor="middle">PSM I — Scrum.org</text>
+  <text x="150" y="93" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#718096" text-anchor="middle">Professional Scrum Master I</text>
+
+  <text x="35" y="115" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ 80 preguntas de opción múltiple</text>
+  <text x="35" y="131" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ 60 minutos</text>
+  <text x="35" y="147" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Aprobación: 85%</text>
+  <text x="35" y="163" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Basada en la Scrum Guide 2020</text>
+  <text x="35" y="179" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Sin caducidad</text>
+  <text x="35" y="195" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#36B37E">→ Perfil: Scrum Master Junior</text>
+
+  <!-- ============ PSPO I PATH ============ -->
+  <rect x="320" y="50" width="260" height="160" rx="8" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="450" y="75" font-family="Inter,Roboto,sans-serif" font-size="13" font-weight="bold" fill="#36B37E" text-anchor="middle">PSPO I — Scrum.org</text>
+  <text x="450" y="93" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#718096" text-anchor="middle">Professional Scrum Product Owner I</text>
+
+  <text x="335" y="115" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ 80 preguntas de opción múltiple</text>
+  <text x="335" y="131" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ 60 minutos</text>
+  <text x="335" y="147" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Aprobación: 85%</text>
+  <text x="335" y="163" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Foco en Product Backlog y valor</text>
+  <text x="335" y="179" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Sin caducidad</text>
+  <text x="335" y="195" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#36B37E">→ Perfil: Product Owner Junior</text>
+
+  <!-- ============ PMI-ACP PATH ============ -->
+  <rect x="620" y="50" width="260" height="160" rx="8" fill="#16213e" stroke="#b794f4" stroke-width="2"/>
+  <text x="750" y="75" font-family="Inter,Roboto,sans-serif" font-size="13" font-weight="bold" fill="#b794f4" text-anchor="middle">PMI-ACP — PMI</text>
+  <text x="750" y="93" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#718096" text-anchor="middle">Agile Certified Practitioner</text>
+
+  <text x="635" y="115" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ 120 preguntas de opción múltiple</text>
+  <text x="635" y="131" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ 3 horas</text>
+  <text x="635" y="147" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Requiere 21h de formación ágil</text>
+  <text x="635" y="163" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Cubre Scrum, Kanban, XP, SAFe</text>
+  <text x="635" y="179" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#a0aec0">✓ Caduca a los 3 años</text>
+  <text x="635" y="195" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#b794f4">→ Perfil: Agile Practitioner Senior</text>
+
+  <!-- ============ DECISION FLOW ============ -->
+  <text x="450" y="240" font-family="Inter,Roboto,sans-serif" font-size="12" font-weight="bold" fill="#FF8B00" text-anchor="middle">¿Cuál certificación elegir?</text>
+
+  <!-- Question boxes -->
+  <rect x="270" y="255" width="360" height="40" rx="6" fill="#16213e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="450" y="271" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" text-anchor="middle">¿Tu rol principal es facilitar eventos y</text>
+  <text x="450" y="285" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" text-anchor="middle">acompañar al equipo?</text>
+
+  <text x="260" y="315" font-family="Inter,Roboto,sans-serif" font-size="11" fill="#4a9eff" text-anchor="middle">Sí → PSM I</text>
+
+  <rect x="270" y="325" width="360" height="40" rx="6" fill="#16213e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="450" y="341" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" text-anchor="middle">¿Tu rol es gestionar el Backlog y</text>
+  <text x="450" y="355" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" text-anchor="middle">maximizar el valor del producto?</text>
+
+  <text x="640" y="315" font-family="Inter,Roboto,sans-serif" font-size="11" fill="#36B37E" text-anchor="middle">Sí → PSPO I</text>
+
+  <rect x="270" y="395" width="360" height="40" rx="6" fill="#16213e" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="450" y="411" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" text-anchor="middle">¿Trabajas en múltiples frameworks ágiles</text>
+  <text x="450" y="425" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" text-anchor="middle">y quieres un reconocimiento más amplio?</text>
+
+  <text x="450" y="458" font-family="Inter,Roboto,sans-serif" font-size="11" fill="#b794f4" text-anchor="middle">Sí → PMI-ACP</text>
+
+  <!-- Footer -->
+  <text x="450" y="475" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#4a5568" text-anchor="middle">Semana 24 — Bootcamp Metodologías Ágiles | PSM I y PSPO I no tienen prerrequisitos de experiencia laboral</text>
+</svg>
