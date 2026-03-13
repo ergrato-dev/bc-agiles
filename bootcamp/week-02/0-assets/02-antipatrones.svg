@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 440" width="860" height="440" font-family="Inter, Roboto, Open Sans, system-ui, sans-serif">
+  <rect width="860" height="440" fill="#1a1a2e"/>
+  <text x="430" y="32" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Antipatrones vs Principios Ágiles</text>
+
+  <!-- Headers -->
+  <rect x="30" y="50" width="370" height="32" rx="6" fill="#4a1942" stroke="#c53030" stroke-width="1.2"/>
+  <text x="215" y="71" text-anchor="middle" font-size="13" font-weight="600" fill="#fc8181">❌ Antipatrón (qué hace el equipo)</text>
+  <rect x="460" y="50" width="370" height="32" rx="6" fill="#1a3a2a" stroke="#276749" stroke-width="1.2"/>
+  <text x="645" y="71" text-anchor="middle" font-size="13" font-weight="600" fill="#9ae6b4">✓ Respuesta ágil (principio)</text>
+
+  <!-- Fila 1 -->
+  <rect x="30" y="100" width="370" height="64" rx="5" fill="#2d1b1b" stroke="#fc8181" stroke-width="1"/>
+  <text x="44" y="122" font-size="12" font-weight="600" fill="#fc8181">Mini-cascada dentro del Sprint</text>
+  <text x="44" y="140" font-size="11" fill="#e2e8f0">Semana 1: diseño. Semana 2: código.</text>
+  <text x="44" y="157" font-size="11" fill="#a0aec0">Semana 3: pruebas. Sprint = cascada interna.</text>
+  <rect x="460" y="100" width="370" height="64" rx="5" fill="#1a2d20" stroke="#9ae6b4" stroke-width="1"/>
+  <text x="474" y="122" font-size="12" font-weight="600" fill="#9ae6b4">P3 + P7: entregar funcionalidad</text>
+  <text x="474" y="140" font-size="11" fill="#e2e8f0">Al menos un incremento funcionando</text>
+  <text x="474" y="157" font-size="11" fill="#a0aec0">al final de cada Sprint.</text>
+
+  <!-- Fila 2 -->
+  <rect x="30" y="182" width="370" height="64" rx="5" fill="#2d1b1b" stroke="#fc8181" stroke-width="1"/>
+  <text x="44" y="204" font-size="12" font-weight="600" fill="#fc8181">Scrum Zombie</text>
+  <text x="44" y="222" font-size="11" fill="#e2e8f0">El equipo hace las ceremonias</text>
+  <text x="44" y="239" font-size="11" fill="#a0aec0">pero nunca adapta nada.</text>
+  <rect x="460" y="182" width="370" height="64" rx="5" fill="#1a2d20" stroke="#9ae6b4" stroke-width="1"/>
+  <text x="474" y="204" font-size="12" font-weight="600" fill="#9ae6b4">P12: reflexión y ajuste</text>
+  <text x="474" y="222" font-size="11" fill="#e2e8f0">La Retrospectiva genera acciones concretas</text>
+  <text x="474" y="239" font-size="11" fill="#a0aec0">que se implementan en el siguiente Sprint.</text>
+
+  <!-- Fila 3 -->
+  <rect x="30" y="264" width="370" height="64" rx="5" fill="#2d1b1b" stroke="#fc8181" stroke-width="1"/>
+  <text x="44" y="286" font-size="12" font-weight="600" fill="#fc8181">Ágil sin ingeniería</text>
+  <text x="44" y="304" font-size="11" fill="#e2e8f0">Velocidad alta, deuda técnica enorme.</text>
+  <text x="44" y="321" font-size="11" fill="#a0aec0">Sin tests, sin code review, sin refactor.</text>
+  <rect x="460" y="264" width="370" height="64" rx="5" fill="#1a2d20" stroke="#9ae6b4" stroke-width="1"/>
+  <text x="474" y="286" font-size="12" font-weight="600" fill="#9ae6b4">P9: excelencia técnica continua</text>
+  <text x="474" y="304" font-size="11" fill="#e2e8f0">La agilidad se sostiene sobre buenas</text>
+  <text x="474" y="321" font-size="11" fill="#a0aec0">prácticas de ingeniería de software.</text>
+
+  <!-- Fila 4 -->
+  <rect x="30" y="346" width="370" height="64" rx="5" fill="#2d1b1b" stroke="#fc8181" stroke-width="1"/>
+  <text x="44" y="368" font-size="12" font-weight="600" fill="#fc8181">Equipo sin acceso al cliente</text>
+  <text x="44" y="386" font-size="11" fill="#e2e8f0">Requisitos llegan por email desde</text>
+  <text x="44" y="403" font-size="11" fill="#a0aec0">Business Analyst. Sin feedback real.</text>
+  <rect x="460" y="346" width="370" height="64" rx="5" fill="#1a2d20" stroke="#9ae6b4" stroke-width="1"/>
+  <text x="474" y="368" font-size="12" font-weight="600" fill="#9ae6b4">P4: negocio + devs, juntos</text>
+  <text x="474" y="386" font-size="11" fill="#e2e8f0">El Product Owner representa al negocio</text>
+  <text x="474" y="403" font-size="11" fill="#a0aec0">y participa en el Sprint Review.</text>
+
+  <!-- Flecha divisoria -->
+  <line x1="430" y1="50" x2="430" y2="430" stroke="#4a5568" stroke-width="1" stroke-dasharray="4 3"/>
+</svg>
