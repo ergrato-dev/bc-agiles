@@ -1,0 +1,125 @@
+<svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Inter, Roboto, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="440" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Liberating Structures — 5 Esenciales</text>
+  <text x="450" y="52" text-anchor="middle" font-size="11" fill="#8892b0">Microestructuras para incluir a todos y liberar la inteligencia colectiva</text>
+
+  <!-- ===== 1-2-4-All ===== -->
+  <rect x="30" y="68" width="165" height="150" rx="10" fill="#16213e" stroke="#0052CC" stroke-width="2"/>
+  <text x="113" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#0052CC">1-2-4-All</text>
+  <text x="113" y="108" text-anchor="middle" font-size="9" fill="#8892b0">Progresión de voz</text>
+  <text x="46" y="126" font-size="9" fill="#4a9eff">Solo → Pareja →</text>
+  <text x="46" y="140" font-size="9" fill="#4a9eff">Grupo 4 → Todos</text>
+  <text x="46" y="158" font-size="9" fill="#8892b0">Evita el monopolio</text>
+  <text x="46" y="172" font-size="9" fill="#8892b0">de la voz de pocos.</text>
+  <rect x="46" y="185" width="133" height="20" rx="4" fill="#0d1b40" stroke="#0052CC" stroke-width="1"/>
+  <text x="113" y="198" text-anchor="middle" font-size="9" fill="#4a9eff">Retro · Sprint Review</text>
+
+  <!-- ===== TRIZ ===== -->
+  <rect x="210" y="68" width="165" height="150" rx="10" fill="#16213e" stroke="#FF8B00" stroke-width="2"/>
+  <text x="293" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#FF8B00">TRIZ</text>
+  <text x="293" y="108" text-anchor="middle" font-size="9" fill="#8892b0">Contradiscurso positivo</text>
+  <text x="226" y="126" font-size="9" fill="#FF8B00">¿Cómo garantizamos</text>
+  <text x="226" y="140" font-size="9" fill="#FF8B00">el fracaso total?</text>
+  <text x="226" y="158" font-size="9" fill="#8892b0">Revela prácticas</text>
+  <text x="226" y="172" font-size="9" fill="#8892b0">disfuncionales ocultas.</text>
+  <rect x="226" y="185" width="133" height="20" rx="4" fill="#0d1b40" stroke="#FF8B00" stroke-width="1"/>
+  <text x="293" y="198" text-anchor="middle" font-size="9" fill="#FF8B00">Retro · Reflexión doble</text>
+
+  <!-- ===== What/So What/Now What ===== -->
+  <rect x="390" y="68" width="165" height="150" rx="10" fill="#16213e" stroke="#36B37E" stroke-width="2"/>
+  <text x="473" y="84" text-anchor="middle" font-size="11" font-weight="bold" fill="#36B37E">What / So What</text>
+  <text x="473" y="98" text-anchor="middle" font-size="11" font-weight="bold" fill="#36B37E">/ Now What</text>
+  <text x="406" y="116" font-size="9" fill="#36B37E">¿Qué pasó? ¿Qué</text>
+  <text x="406" y="130" font-size="9" fill="#36B37E">significa? ¿Qué hacemos?</text>
+  <text x="406" y="148" font-size="9" fill="#8892b0">Estructura la reflexión</text>
+  <text x="406" y="162" font-size="9" fill="#8892b0">post-evento en 3 capas.</text>
+  <text x="406" y="176" font-size="9" fill="#8892b0">Evita "lista de queja".</text>
+  <rect x="406" y="185" width="133" height="20" rx="4" fill="#0d1b40" stroke="#36B37E" stroke-width="1"/>
+  <text x="473" y="198" text-anchor="middle" font-size="9" fill="#36B37E">Retro · Review · DailyPlus</text>
+
+  <!-- ===== Fishbowl ===== -->
+  <rect x="570" y="68" width="150" height="150" rx="10" fill="#16213e" stroke="#b794f4" stroke-width="2"/>
+  <text x="645" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#b794f4">Fishbowl</text>
+  <text x="645" y="108" text-anchor="middle" font-size="9" fill="#8892b0">Conversación en capas</text>
+  <!-- fishbowl circles -->
+  <circle cx="645" cy="140" r="26" fill="none" stroke="#b794f4" stroke-width="1.5"/>
+  <circle cx="645" cy="140" r="14" fill="#0d1b40" stroke="#4a9eff" stroke-width="1"/>
+  <text x="645" y="144" text-anchor="middle" font-size="8" fill="#4a9eff">4 hablan</text>
+  <text x="645" y="170" text-anchor="middle" font-size="8" fill="#8892b0">Resto observa</text>
+  <rect x="586" y="185" width="118" height="20" rx="4" fill="#0d1b40" stroke="#b794f4" stroke-width="1"/>
+  <text x="645" y="198" text-anchor="middle" font-size="9" fill="#b794f4">Dilemas · PO↔Dev</text>
+
+  <!-- ===== 15% Solutions ===== -->
+  <rect x="735" y="68" width="135" height="150" rx="10" fill="#16213e" stroke="#4a9eff" stroke-width="2"/>
+  <text x="803" y="84" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9eff">15%</text>
+  <text x="803" y="98" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a9eff">Solutions</text>
+  <text x="751" y="116" font-size="9" fill="#4a9eff">¿Qué puedes hacer</text>
+  <text x="751" y="130" font-size="9" fill="#4a9eff">sin pedir permiso?</text>
+  <text x="751" y="148" font-size="9" fill="#8892b0">Activa la autonomía.</text>
+  <text x="751" y="162" font-size="9" fill="#8892b0">Rompe la parálisis</text>
+  <text x="751" y="175" font-size="9" fill="#8892b0">del impedimento.</text>
+  <rect x="751" y="185" width="118" height="20" rx="4" fill="#0d1b40" stroke="#4a9eff" stroke-width="1"/>
+  <text x="810" y="198" text-anchor="middle" font-size="9" fill="#4a9eff">Retro · Impedimentos</text>
+
+  <!-- ===== Bottom: Sequence strip ===== -->
+  <rect x="30" y="238" width="840" height="90" rx="10" fill="#16213e" stroke="#4a5568" stroke-width="1"/>
+  <text x="450" y="258" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Secuencia de Retrospectiva con LS</text>
+
+  <!-- Step 1 -->
+  <rect x="50" y="270" width="140" height="42" rx="6" fill="#0d1b40" stroke="#FF8B00" stroke-width="1.5"/>
+  <text x="120" y="286" text-anchor="middle" font-size="9" font-weight="bold" fill="#FF8B00">TRIZ (10 min)</text>
+  <text x="120" y="300" text-anchor="middle" font-size="9" fill="#8892b0">¿Cómo llevaríamos</text>
+  <text x="120" y="311" text-anchor="middle" font-size="9" fill="#8892b0">este Sprint al fracaso?</text>
+
+  <text x="200" y="298" text-anchor="middle" font-size="14" fill="#4a5568">→</text>
+
+  <!-- Step 2 -->
+  <rect x="210" y="270" width="140" height="42" rx="6" fill="#0d1b40" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="280" y="286" text-anchor="middle" font-size="9" font-weight="bold" fill="#0052CC">1-2-4-All (15 min)</text>
+  <text x="280" y="300" text-anchor="middle" font-size="9" fill="#8892b0">¿Qué patrones reales</text>
+  <text x="280" y="311" text-anchor="middle" font-size="9" fill="#8892b0">reconocemos?</text>
+
+  <text x="360" y="298" text-anchor="middle" font-size="14" fill="#4a5568">→</text>
+
+  <!-- Step 3 -->
+  <rect x="370" y="270" width="160" height="42" rx="6" fill="#0d1b40" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="450" y="286" text-anchor="middle" font-size="9" font-weight="bold" fill="#36B37E">What/So What (10 min)</text>
+  <text x="450" y="300" text-anchor="middle" font-size="9" fill="#8892b0">¿Qué significa lo que</text>
+  <text x="450" y="311" text-anchor="middle" font-size="9" fill="#8892b0">observamos?</text>
+
+  <text x="540" y="298" text-anchor="middle" font-size="14" fill="#4a5568">→</text>
+
+  <!-- Step 4 -->
+  <rect x="550" y="270" width="140" height="42" rx="6" fill="#0d1b40" stroke="#4a9eff" stroke-width="1.5"/>
+  <text x="620" y="286" text-anchor="middle" font-size="9" font-weight="bold" fill="#4a9eff">15% Solutions (10 min)</text>
+  <text x="620" y="300" text-anchor="middle" font-size="9" fill="#8892b0">¿Qué puedes cambiar</text>
+  <text x="620" y="311" text-anchor="middle" font-size="9" fill="#8892b0">tú sin permiso?</text>
+
+  <text x="700" y="298" text-anchor="middle" font-size="14" fill="#4a5568">→</text>
+
+  <!-- Step 5 -->
+  <rect x="710" y="270" width="140" height="42" rx="6" fill="#0d1b40" stroke="#b794f4" stroke-width="1.5"/>
+  <text x="780" y="286" text-anchor="middle" font-size="9" font-weight="bold" fill="#b794f4">Now What (5 min)</text>
+  <text x="780" y="300" text-anchor="middle" font-size="9" fill="#8892b0">Compromisos concretos</text>
+  <text x="780" y="311" text-anchor="middle" font-size="9" fill="#8892b0">del equipo</text>
+
+  <!-- Total time / bottom labels -->
+  <rect x="30" y="346" width="840" height="56" rx="8" fill="#16213e" stroke="#4a5568" stroke-width="1"/>
+  <text x="450" y="364" text-anchor="middle" font-size="11" font-weight="bold" fill="#ffffff">Design Thinking — 5 Fases</text>
+  <text x="105" y="388" text-anchor="middle" font-size="9" fill="#0052CC">Empatizar</text>
+  <text x="105" y="399" text-anchor="middle" font-size="8" fill="#8892b0">Entrevistas · Observación</text>
+  <text x="263" y="388" text-anchor="middle" font-size="9" fill="#36B37E">Definir</text>
+  <text x="263" y="399" text-anchor="middle" font-size="8" fill="#8892b0">HMW · Point of View</text>
+  <text x="421" y="388" text-anchor="middle" font-size="9" fill="#FF8B00">Idear</text>
+  <text x="421" y="399" text-anchor="middle" font-size="8" fill="#8892b0">Brainstorming · Crazy 8s</text>
+  <text x="579" y="388" text-anchor="middle" font-size="9" fill="#b794f4">Prototipar</text>
+  <text x="579" y="399" text-anchor="middle" font-size="8" fill="#8892b0">Boceto · Story Map</text>
+  <text x="737" y="388" text-anchor="middle" font-size="9" fill="#4a9eff">Testear</text>
+  <text x="737" y="399" text-anchor="middle" font-size="8" fill="#8892b0">Validar con usuarios reales</text>
+
+  <!-- Footer -->
+  <text x="450" y="426" text-anchor="middle" font-size="10" fill="#4a5568">Semana 22 — Etapa 2: Facilitación Avanzada</text>
+</svg>
