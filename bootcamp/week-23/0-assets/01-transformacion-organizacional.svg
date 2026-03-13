@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520">
+  <!-- Background -->
+  <rect width="900" height="520" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="450" y="36" font-family="Inter,Roboto,sans-serif" font-size="16" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Transformación Organizacional Ágil</text>
+
+  <!-- ============ KOTTER 8 STEPS ============ -->
+  <text x="30" y="70" font-family="Inter,Roboto,sans-serif" font-size="12" font-weight="bold" fill="#4a9eff">Modelo de Kotter — 8 Pasos</text>
+
+  <!-- Steps 1-4 -->
+  <rect x="20" y="80" width="130" height="44" rx="6" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="85" y="98" font-family="Inter,Roboto,sans-serif" font-size="10" font-weight="bold" fill="#4a9eff" text-anchor="middle">1. Urgencia</text>
+  <text x="85" y="113" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0" text-anchor="middle">Crear necesidad real</text>
+
+  <text x="158" y="104" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#4a9eff" text-anchor="middle">→</text>
+
+  <rect x="165" y="80" width="130" height="44" rx="6" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="230" y="98" font-family="Inter,Roboto,sans-serif" font-size="10" font-weight="bold" fill="#4a9eff" text-anchor="middle">2. Coalición</text>
+  <text x="230" y="113" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0" text-anchor="middle">Líderes comprometidos</text>
+
+  <text x="303" y="104" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#4a9eff" text-anchor="middle">→</text>
+
+  <rect x="310" y="80" width="130" height="44" rx="6" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="375" y="98" font-family="Inter,Roboto,sans-serif" font-size="10" font-weight="bold" fill="#4a9eff" text-anchor="middle">3. Visión</text>
+  <text x="375" y="113" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0" text-anchor="middle">Dirección clara y simple</text>
+
+  <text x="448" y="104" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#4a9eff" text-anchor="middle">→</text>
+
+  <rect x="455" y="80" width="130" height="44" rx="6" fill="#16213e" stroke="#0052CC" stroke-width="1.5"/>
+  <text x="520" y="98" font-family="Inter,Roboto,sans-serif" font-size="10" font-weight="bold" fill="#4a9eff" text-anchor="middle">4. Comunicar</text>
+  <text x="520" y="113" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0" text-anchor="middle">Constante y coherente</text>
+
+  <!-- Steps 5-8 -->
+  <rect x="20" y="142" width="130" height="44" rx="6" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="85" y="160" font-family="Inter,Roboto,sans-serif" font-size="10" font-weight="bold" fill="#36B37E" text-anchor="middle">5. Habilitar</text>
+  <text x="85" y="175" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0" text-anchor="middle">Remover obstáculos</text>
+
+  <text x="158" y="166" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#36B37E" text-anchor="middle">→</text>
+
+  <rect x="165" y="142" width="130" height="44" rx="6" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="230" y="160" font-family="Inter,Roboto,sans-serif" font-size="10" font-weight="bold" fill="#36B37E" text-anchor="middle">6. Victorias Cortas</text>
+  <text x="230" y="175" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0" text-anchor="middle">Quick wins visibles</text>
+
+  <text x="303" y="166" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#36B37E" text-anchor="middle">→</text>
+
+  <rect x="310" y="142" width="130" height="44" rx="6" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="375" y="160" font-family="Inter,Roboto,sans-serif" font-size="10" font-weight="bold" fill="#36B37E" text-anchor="middle">7. Consolidar</text>
+  <text x="375" y="175" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0" text-anchor="middle">No declarar victoria</text>
+
+  <text x="448" y="166" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#36B37E" text-anchor="middle">→</text>
+
+  <rect x="455" y="142" width="130" height="44" rx="6" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="520" y="160" font-family="Internet,Roboto,sans-serif" font-size="10" font-weight="bold" fill="#36B37E" text-anchor="middle">8. Anclar</text>
+  <text x="520" y="175" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0" text-anchor="middle">En la cultura</text>
+
+  <!-- ============ LALOUX ESCALERA ============ -->
+  <text x="620" y="70" font-family="Inter,Roboto,sans-serif" font-size="12" font-weight="bold" fill="#4a9eff">Laloux — Niveles Organizacionales</text>
+
+  <!-- Rojo -->
+  <rect x="610" y="80" width="270" height="36" rx="5" fill="#7b2d2d"/>
+  <text x="625" y="102" font-family="Inter,Roboto,sans-serif" font-size="11" font-weight="bold" fill="#fff">Rojo</text>
+  <text x="680" y="102" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fca5a5">Poder y miedo. Jefe controla todo.</text>
+
+  <!-- Ámbar -->
+  <rect x="610" y="122" width="270" height="36" rx="5" fill="#7a5c1e"/>
+  <text x="625" y="144" font-family="Inter,Roboto,sans-serif" font-size="11" font-weight="bold" fill="#fff">Ámbar</text>
+  <text x="680" y="144" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fcd34d">Procesos formales. Jerarquía estricta.</text>
+
+  <!-- Naranja -->
+  <rect x="610" y="164" width="270" height="36" rx="5" fill="#7a4a1a"/>
+  <text x="625" y="186" font-family="Inter,Roboto,sans-serif" font-size="11" font-weight="bold" fill="#fff">Naranja</text>
+  <text x="680" y="186" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fb923c">Resultados y métricas. Meritocracia.</text>
+
+  <!-- Verde -->
+  <rect x="610" y="206" width="270" height="36" rx="5" fill="#1a5c2e"/>
+  <text x="625" y="228" font-family="Inter,Roboto,sans-serif" font-size="11" font-weight="bold" fill="#fff">Verde</text>
+  <text x="680" y="228" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#4ade80">Cultura y propósito. Consenso.</text>
+
+  <!-- Teal -->
+  <rect x="610" y="248" width="270" height="36" rx="5" fill="#0d4a4a"/>
+  <text x="625" y="270" font-family="Inter,Roboto,sans-serif" font-size="11" font-weight="bold" fill="#fff">Teal</text>
+  <text x="680" y="270" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#2dd4bf">Autogestión. Propósito evolutivo.</text>
+
+  <!-- Laloux note -->
+  <text x="745" y="308" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#718096" text-anchor="middle">↑ No toda org. debe llegar a Teal</text>
+
+  <!-- ============ ANTIPATRONES TRANSFORMACION ============ -->
+  <text x="30" y="215" font-family="Inter,Roboto,sans-serif" font-size="12" font-weight="bold" fill="#FF8B00">Antipatrones de Transformación</text>
+
+  <rect x="20" y="224" width="565" height="90" rx="6" fill="#16213e" stroke="#FF8B00" stroke-width="1"/>
+
+  <!-- Antipatron 1 -->
+  <circle cx="40" cy="248" r="5" fill="#FF8B00"/>
+  <text x="52" y="252" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" font-weight="bold">Agile Washing</text>
+  <text x="52" y="265" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0">Renombran reuniones como "Daily" y "Sprint" pero siguen con micromanagement y cascada.</text>
+
+  <!-- Antipatron 2 -->
+  <circle cx="40" cy="283" r="5" fill="#FF8B00"/>
+  <text x="52" y="287" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" font-weight="bold">Solo formación, sin cambio estructural</text>
+  <text x="52" y="300" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0">Certifican a todos en Scrum pero la estructura organizacional sigue siendo funcional y en silos.</text>
+
+  <!-- Antipatron 3 -->
+  <circle cx="320" cy="248" r="5" fill="#FF8B00"/>
+  <text x="332" y="252" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" font-weight="bold">Transformación sin liderazgo comprometido</text>
+  <text x="332" y="265" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0">El CEO declara la transformación pero sigue aprobando microdetalles.</text>
+
+  <!-- Antipatron 4 -->
+  <circle cx="320" cy="283" r="5" fill="#FF8B00"/>
+  <text x="332" y="287" font-family="Inter,Roboto,sans-serif" font-size="10" fill="#fbd38d" font-weight="bold">Saltar a Teal sin pasar por Verde</text>
+  <text x="332" y="300" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#a0aec0">Los niveles de Laloux son evolutivos: no se puede saltarlos. El cambio requiere madurez cultural previa.</text>
+
+  <!-- ============ JOURNEY MAP STRIP ============ -->
+  <text x="30" y="342" font-family="Inter,Roboto,sans-serif" font-size="12" font-weight="bold" fill="#b794f4">Journey Map de Transformación</text>
+
+  <rect x="20" y="352" width="100" height="50" rx="5" fill="#16213e" stroke="#b794f4" stroke-width="1.5"/>
+  <text x="70" y="372" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#b794f4" text-anchor="middle" font-weight="bold">Diagnóstico</text>
+  <text x="70" y="385" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">Nivel actual</text>
+  <text x="70" y="396" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">Kotter paso N</text>
+
+  <text x="128" y="378" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#b794f4" text-anchor="middle">→</text>
+
+  <rect x="135" y="352" width="100" height="50" rx="5" fill="#16213e" stroke="#b794f4" stroke-width="1.5"/>
+  <text x="185" y="372" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#b794f4" text-anchor="middle" font-weight="bold">Resistencias</text>
+  <text x="185" y="385" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">Actores y miedos</text>
+  <text x="185" y="396" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">identificados</text>
+
+  <text x="243" y="378" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#b794f4" text-anchor="middle">→</text>
+
+  <rect x="250" y="352" width="100" height="50" rx="5" fill="#16213e" stroke="#b794f4" stroke-width="1.5"/>
+  <text x="300" y="372" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#b794f4" text-anchor="middle" font-weight="bold">Intervenciones</text>
+  <text x="300" y="385" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">Por actor / área</text>
+  <text x="300" y="396" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">No solo training</text>
+
+  <text x="358" y="378" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#b794f4" text-anchor="middle">→</text>
+
+  <rect x="365" y="352" width="100" height="50" rx="5" fill="#16213e" stroke="#b794f4" stroke-width="1.5"/>
+  <text x="415" y="372" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#b794f4" text-anchor="middle" font-weight="bold">Victorias</text>
+  <text x="415" y="385" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">Quick wins para</text>
+  <text x="415" y="396" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">mantener momentum</text>
+
+  <text x="473" y="378" font-family="Inter,Roboto,sans-serif" font-size="13" fill="#b794f4" text-anchor="middle">→</text>
+
+  <rect x="480" y="352" width="105" height="50" rx="5" fill="#16213e" stroke="#36B37E" stroke-width="1.5"/>
+  <text x="532" y="372" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#36B37E" text-anchor="middle" font-weight="bold">Anclar</text>
+  <text x="532" y="385" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">Nuevos hábitos en</text>
+  <text x="532" y="396" font-family="Inter,Roboto,sans-serif" font-size="8" fill="#a0aec0" text-anchor="middle">procesos y cultura</text>
+
+  <!-- Footer note -->
+  <text x="450" y="500" font-family="Inter,Roboto,sans-serif" font-size="9" fill="#4a5568" text-anchor="middle">Semana 23 — Bootcamp Metodologías Ágiles | Kotter (1996) + Laloux "Reinventing Organizations" (2014)</text>
+</svg>
