@@ -111,7 +111,7 @@ git clone https://github.com/ergrato-dev/bc-agiles.git
 cd bc-agiles
 
 # 2. Navigate to the first week
-cd bootcamp/week-01
+cd bootcamp/week-01-del_cascada_al_agil
 cat README.md
 
 # 3. Complete the week's practice
@@ -226,7 +226,7 @@ This bootcamp is grounded in the work of:
 | Document | Description |
 |---|---|
 | [Curricular Plan](_docs/plan-curricular.md) | Detailed distribution of 24 weeks and objectives per stage |
-| [Week 01](bootcamp/week-01/README.md) | Starting point: Agile Manifesto and frameworks overview |
+| [Week 01](bootcamp/week-01-del_cascada_al_agil/README.md) | Starting point: Agile Manifesto and frameworks overview |
 
 ---
 
