@@ -610,7 +610,7 @@ Cada semana incluye **tres tipos de evidencias**:
 
 - **Repositorio**: https://github.com/ergrato-dev/bc-agiles
 - **Documentación general**: [\_docs/README.md](_docs/README.md)
-- **Primera semana**: [bootcamp/week-01/README.md](bootcamp/week-01/README.md)
+- **Primera semana**: [bootcamp/week-01-del_cascada_al_agil/README.md](bootcamp/week-01-del_cascada_al_agil/README.md)
 
 ---
 

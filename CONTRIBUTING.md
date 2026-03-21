@@ -122,7 +122,7 @@ No todos los PRs son aceptados — si una propuesta no encaja con los objetivos 
 
 Usa [GitHub Issues](https://github.com/ergrato-dev/bc-agiles/issues) e incluye:
 
-- **Semana y archivo afectado** (ej: `week-12/1-teoria/02-velocity.md`)
+- **Semana y archivo afectado** (ej: `week-12-metricas_agiles/1-teoria/02-velocity.md`)
 - **Descripción clara del problema**
 - **Sugerencia de corrección** (opcional pero útil)
 
