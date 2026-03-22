@@ -200,6 +200,18 @@ Las contribuciones de la comunidad son bienvenidas. Lee la [Guía de Contribuci�
 
 ---
 
+## ⚠️ Exención de Responsabilidad
+
+Este repositorio tiene **fines exclusivamente educativos**. El contenido, las plantillas y los materiales aquí presentados se proporcionan "tal cual" (*as-is*), sin garantías de ningún tipo, ya sean expresas o implícitas.
+
+- **Resultados de certificación**: La preparación contenida en este bootcamp no garantiza la aprobación de ningún examen de certificación (PSM I, PSPO I, PMI-ACP ni otros). Los resultados dependen del esfuerzo individual y de los requisitos actualizados de cada organismo certificador.
+- **Aplicación profesional**: El uso de estas técnicas, marcos de trabajo y plantillas en entornos laborales reales es responsabilidad exclusiva del practicante. Los autores no asumen responsabilidad por decisiones tomadas a partir de este material.
+- **Marcos y marcas registradas**: Scrum™, SAFe®, LeSS™, Nexus™, PSM I®, PSPO I® y otros términos son marcas registradas de sus respectivas organizaciones (Scrum.org, Scaled Agile Inc., etc.). Este bootcamp no está afiliado, patrocinado ni avalado por ninguna de estas organizaciones.
+- **Exactitud del contenido**: Aunque se hace todo lo posible por mantener el contenido actualizado y preciso, los marcos ágiles evolucionan. Consulta siempre las fuentes oficiales (Scrum Guide, SAFe Framework, etc.) para información vigente.
+- **Disponibilidad**: El acceso a este repositorio puede interrumpirse en cualquier momento sin previo aviso.
+
+---
+
 ## 📄 Licencia
 
 Distribuido bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
