@@ -200,6 +200,18 @@ Community contributions are welcome. Read the [Contributing Guide](CONTRIBUTING.
 
 ---
 
+## ⚠️ Disclaimer
+
+This repository is intended **for educational purposes only**. The content, templates, and materials presented here are provided "as-is", without warranties of any kind, either express or implied.
+
+- **Certification outcomes**: The preparation provided in this bootcamp does not guarantee passing any certification exam (PSM I, PSPO I, PMI-ACP, or others). Results depend on individual effort and the current requirements of each certifying body.
+- **Professional application**: The use of these techniques, frameworks, and templates in real work environments is the sole responsibility of the practitioner. The authors assume no liability for decisions made based on this material.
+- **Frameworks and trademarks**: Scrum™, SAFe®, LeSS™, Nexus™, PSM I®, PSPO I®, and other terms are registered trademarks of their respective organizations (Scrum.org, Scaled Agile Inc., etc.). This bootcamp is not affiliated with, sponsored by, or endorsed by any of these organizations.
+- **Content accuracy**: While every effort is made to keep content updated and accurate, agile frameworks evolve. Always consult official sources (Scrum Guide, SAFe Framework, etc.) for current information.
+- **Availability**: Access to this repository may be interrupted at any time without prior notice.
+
+---
+
 ## 📄 License
 
 Distributed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
