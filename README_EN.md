@@ -1,4 +1,4 @@
-<img src="_assets/bootcamp-header.svg" alt="Agile Methodologies Bootcamp — Zero to Hero" width="100%">
+<img src="assets/bootcamp-header.svg" alt="Agile Methodologies Bootcamp — Zero to Hero" width="100%">
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
@@ -237,7 +237,7 @@ This bootcamp is grounded in the work of:
 
 | Document | Description |
 |---|---|
-| [Curricular Plan](_docs/plan-curricular.md) | Detailed distribution of 24 weeks and objectives per stage |
+| [Curricular Plan](docs/plan-curricular.md) | Detailed distribution of 24 weeks and objectives per stage |
 | [Week 01](bootcamp/week-01-del_cascada_al_agil/README.md) | Starting point: Agile Manifesto and frameworks overview |
 
 ---

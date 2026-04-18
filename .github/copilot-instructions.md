@@ -113,8 +113,8 @@ bootcamp/week-XX/
 
 ### 📁 Carpetas Raíz
 
-- **`_assets/`**: Recursos visuales globales (logos, headers, banners)
-- **`_docs/`**: Documentación general del bootcamp
+- **`assets/`**: Recursos visuales globales (logos, headers, banners)
+- **`docs/`**: Documentación general del bootcamp
 - **`_scripts/`**: Scripts de automatización y utilidades
 - **`bootcamp/`**: Contenido semanal del bootcamp
 
@@ -609,7 +609,7 @@ Cada semana incluye **tres tipos de evidencias**:
 ## 🔗 Enlaces Importantes
 
 - **Repositorio**: https://github.com/ergrato-dev/bc-agiles
-- **Documentación general**: [\_docs/README.md](_docs/README.md)
+- **Documentación general**: [docs/README.md](docs/README.md)
 - **Primera semana**: [bootcamp/week-01-del_cascada_al_agil/README.md](bootcamp/week-01-del_cascada_al_agil/README.md)
 
 ---

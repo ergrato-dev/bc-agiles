@@ -1,4 +1,4 @@
-<img src="_assets/bootcamp-header.svg" alt="Bootcamp Metodologías Ágiles — De Cero a Héroe" width="100%">
+<img src="assets/bootcamp-header.svg" alt="Bootcamp Metodologías Ágiles — De Cero a Héroe" width="100%">
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/Licencia-MIT-blue.svg" alt="Licencia MIT"></a>
@@ -237,7 +237,7 @@ Este bootcamp se fundamenta en el trabajo de:
 
 | Documento | Descripción |
 |---|---|
-| [Plan Curricular](_docs/plan-curricular.md) | Distribución detallada de 24 semanas y objetivos por etapa |
+| [Plan Curricular](docs/plan-curricular.md) | Distribución detallada de 24 semanas y objetivos por etapa |
 | [Semana 01](bootcamp/week-01-del_cascada_al_agil/README.md) | Punto de inicio: Manifiesto Ágil y panorama de frameworks |
 
 ---
